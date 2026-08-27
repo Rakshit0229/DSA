@@ -67,6 +67,25 @@ LeetCode Account (Rakshit02)
 ---
 
 <!-- LEETCODE_STATS_START -->
+## 📊 Progress
+
+| Difficulty | Solved |
+|:----------:|:------:|
+| 🟢 Easy    | **3** |
+| 🟡 Medium  | **1** |
+| 🔴 Hard    | **0** |
+| ⚡ **Total** | **4** |
+
+> Last synced: 2026-08-27 05:31 UTC
+
+## 📋 All Solutions
+
+| # | Problem | Difficulty | Language | Solved On | Topics |
+|---|---------|:----------:|:--------:|:---------:|--------|
+| `0001` | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | `cpp` | 2026-05-09 | Array, Hash Table |
+| `0009` | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | `cpp` | 2026-05-09 | Math |
+| `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
+| `2383` | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | `cpp` | 2026-06-28 | Math |
 <!-- LEETCODE_STATS_END -->
 
 ---
