@@ -18,14 +18,14 @@ jobs:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0    # full history so git push works correctly
+          fetch-depth: 0
 
       # ── 2. Python setup ─────────────────────────────────────────────────────
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
+          # ✅ removed cache: pip (no requirements.txt needed)
 
       # ── 3. Install dependencies ─────────────────────────────────────────────
       - name: 📦 Install Dependencies
@@ -44,7 +44,6 @@ jobs:
           git config user.name  "LeetCode Sync Bot 🤖"
           git config user.email "actions@github.com"
           git add .
-          # Only commit if there are actual changes
           if git diff --staged --quiet; then
             echo "✅ Nothing new to commit — already up to date."
           else
