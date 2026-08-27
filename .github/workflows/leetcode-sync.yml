@@ -1,0 +1,54 @@
+name: 🔄 Sync LeetCode Solutions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # Every day at midnight UTC (5:30 AM IST)
+  workflow_dispatch:        # Manual trigger from Actions tab
+
+permissions:
+  contents: write           # Needed to commit & push solution files
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    name: Fetch & Commit Solutions
+
+    steps:
+      # ── 1. Checkout repo ────────────────────────────────────────────────────
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # full history so git push works correctly
+
+      # ── 2. Python setup ─────────────────────────────────────────────────────
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      # ── 3. Install dependencies ─────────────────────────────────────────────
+      - name: 📦 Install Dependencies
+        run: pip install requests
+
+      # ── 4. Run the sync script ───────────────────────────────────────────────
+      - name: ⚡ Sync LeetCode Solutions
+        env:
+          LEETCODE_SESSION:    ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        run: python sync.py
+
+      # ── 5. Commit & push if anything changed ────────────────────────────────
+      - name: 📤 Commit & Push Changes
+        run: |
+          git config user.name  "LeetCode Sync Bot 🤖"
+          git config user.email "actions@github.com"
+          git add .
+          # Only commit if there are actual changes
+          if git diff --staged --quiet; then
+            echo "✅ Nothing new to commit — already up to date."
+          else
+            git commit -m "🤖 Sync LeetCode solutions — $(date +'%Y-%m-%d')"
+            git push
+            echo "✅ Solutions pushed successfully."
+          fi
