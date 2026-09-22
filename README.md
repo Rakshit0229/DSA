@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
+| 🟢 Easy    | **16** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **17** |
 
-> Last synced: 2026-09-09 02:21 UTC
+> Last synced: 2026-09-22 16:10 UTC
 
 ## 📋 All Solutions
 
@@ -84,7 +84,20 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0001` | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | `cpp` | 2026-05-09 | Array, Hash Table |
 | `0009` | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | `cpp` | 2026-05-09 | Math |
+| `0191` | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | `cpp` | 2026-09-19 | Divide and Conquer, Bit Manipulation |
+| `0202` | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | `cpp` | 2026-09-20 | Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm |
+| `0231` | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | `cpp` | 2026-09-20 | Math, Bit Manipulation, Recursion |
+| `0258` | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | `cpp` | 2026-09-20 | Math, Simulation, Number Theory |
+| `0326` | [Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | `cpp` | 2026-09-20 | Math, Recursion |
+| `0342` | [Power of Four](https://leetcode.com/problems/power-of-four/) | Easy | `cpp` | 2026-09-20 | Math, Bit Manipulation, Recursion |
+| `0367` | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | `cpp` | 2026-09-20 | Math, Binary Search |
+| `0412` | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | `cpp` | 2026-09-19 | Math, String, Simulation |
+| `0476` | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | `cpp` | 2026-09-21 | Bit Manipulation |
+| `0507` | [Perfect Number](https://leetcode.com/problems/perfect-number/) | Easy | `cpp` | 2026-09-20 | Math |
 | `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
+| `1013` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | `cpp` | 2026-09-19 | Math, Dynamic Programming, Recursion, Memoization |
+| `1406` | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | `cpp` | 2026-09-19 | Math |
+| `1444` | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | `cpp` | 2026-09-20 | Math, Bit Manipulation |
 | `2383` | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | `cpp` | 2026-06-28 | Math |
 <!-- LEETCODE_STATS_END -->
 
