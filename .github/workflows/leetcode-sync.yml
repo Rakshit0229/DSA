@@ -35,11 +35,14 @@ jobs:
 
       - name: 📤 Commit & Push Changes
         run: |
-          # ✅ Use YOUR GitHub email so commits count toward your streak
           git config user.name  "Rakshit0229"
           git config user.email "rakshitmishra029@gmail.com"
           git add .
-          # Always commits — even if no new solutions (README timestamp updates daily)
-          git diff --staged --quiet && git diff --quiet || \
-          git commit -m "🤖 LeetCode Sync — $(date +'%Y-%m-%d %H:%M IST')" && \
-          git push || echo "Nothing to commit today."
+          if git diff --staged --quiet; then
+            echo "✅ Nothing to commit today."
+          else
+            git commit -m "🤖 LeetCode Sync — $(date +'%Y-%m-%d %H:%M IST')"
+            git pull --rebase origin main   # ✅ Fix: pull latest before pushing
+            git push origin main
+            echo "✅ Solutions pushed successfully."
+          fi
