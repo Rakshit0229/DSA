@@ -6,9 +6,6 @@
   GitHub  : github.com/Rakshit0229/DSA
   LeetCode: leetcode.com/u/Rakshit02
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Fetches every accepted LeetCode submission,
-organizes it by difficulty, and updates the
-README with a live progress table.
 """
 
 import os
@@ -31,7 +28,7 @@ if not LEETCODE_SESSION or not CSRF_TOKEN:
     print("❌  Missing secrets: LEETCODE_SESSION or LEETCODE_CSRF_TOKEN")
     sys.exit(1)
 
-# ── Language → file extension ─────────────────────────────────────────────────
+# ── Language maps ─────────────────────────────────────────────────────────────
 LANG_EXT = {
     "python3": "py",  "python": "py",
     "cpp":     "cpp", "java":   "java",
@@ -43,7 +40,6 @@ LANG_EXT = {
     "mysql":   "sql", "bash":    "sh",
 }
 
-# ── Comment style per extension ───────────────────────────────────────────────
 LANG_CMT = {
     "py": "#",  "cpp": "//", "java": "//",
     "js": "//", "ts":  "//", "c":    "//",
@@ -63,7 +59,6 @@ def _headers():
     }
 
 def _gql(query: str, variables: dict = None) -> dict:
-    """Run a GraphQL query against LeetCode."""
     r = requests.post(
         GRAPHQL_URL,
         json={"query": query, "variables": variables or {}},
@@ -73,9 +68,8 @@ def _gql(query: str, variables: dict = None) -> dict:
     r.raise_for_status()
     return r.json().get("data", {})
 
-# ── LeetCode API calls ────────────────────────────────────────────────────────
+# ── LeetCode API ──────────────────────────────────────────────────────────────
 def fetch_problem_details(slug: str) -> dict:
-    """Return questionId, title, difficulty, topicTags for a slug."""
     q = """
     query ($titleSlug: String!) {
         question(titleSlug: $titleSlug) {
@@ -89,40 +83,30 @@ def fetch_problem_details(slug: str) -> dict:
     return _gql(q, {"titleSlug": slug}).get("question", {})
 
 
-def fetch_all_accepted_submissions() -> list[dict]:
-    """
-    Paginate through /api/submissions/ and return every accepted submission.
-    Each submission dict includes: id, title, title_slug, lang, code, timestamp.
-    """
+def fetch_all_accepted() -> list:
     results, offset = [], 0
     print("  Fetching submissions", end="", flush=True)
-
     while True:
-        url = f"{SUBMISSIONS_URL}?offset={offset}&limit=20"
-        r   = requests.get(url, headers=_headers(), timeout=15)
+        r = requests.get(
+            f"{SUBMISSIONS_URL}?offset={offset}&limit=20",
+            headers=_headers(), timeout=15
+        )
         r.raise_for_status()
         data = r.json()
-
-        batch    = data.get("submissions_dump", [])
-        accepted = [s for s in batch if s.get("status_display") == "Accepted"]
+        accepted = [s for s in data.get("submissions_dump", [])
+                    if s.get("status_display") == "Accepted"]
         results.extend(accepted)
-
         print(".", end="", flush=True)
         if not data.get("has_next"):
             break
         offset += 20
-        time.sleep(1.2)   # be polite to LeetCode servers
-
+        time.sleep(1.2)
     print(f"  done ({len(results)} accepted)\n")
     return results
 
 
-# ── File creation ─────────────────────────────────────────────────────────────
+# ── File writer ───────────────────────────────────────────────────────────────
 def write_solution(sub: dict, details: dict) -> bool:
-    """
-    Create  <Difficulty>/<id>-<slug>/solution.<ext>
-    Returns True if a new file was written, False if it already existed.
-    """
     q_id  = str(details.get("questionId", "0000")).zfill(4)
     title = details.get("title",  sub.get("title", "Unknown"))
     slug  = sub.get("title_slug", "unknown")
@@ -137,14 +121,12 @@ def write_solution(sub: dict, details: dict) -> bool:
     cmt  = LANG_CMT.get(ext, "//")
     tags = ", ".join(t["name"] for t in details.get("topicTags", []))
 
-    # folder: e.g.  Easy/0001-two-sum/
-    folder   = Path(diff) / f"{q_id}-{slug}"
+    folder = Path(diff) / f"{q_id}-{slug}"
     folder.mkdir(parents=True, exist_ok=True)
 
-    # allow multiple-language solutions for the same problem
     filepath = folder / f"solution.{ext}"
     if filepath.exists():
-        return False          # already synced — skip
+        return False
 
     header = (
         f"{cmt} ╔══════════════════════════════════════════════╗\n"
@@ -156,23 +138,23 @@ def write_solution(sub: dict, details: dict) -> bool:
         f"{cmt}   URL       : https://leetcode.com/problems/{slug}/\n"
         f"{cmt} ╚══════════════════════════════════════════════╝\n\n"
     )
-
     filepath.write_text(header + code, encoding="utf-8")
     print(f"    ✅  [{q_id}] {title}  ({lang})")
     return True
 
 
-# ── README generator ──────────────────────────────────────────────────────────
-def update_readme(problems: list[dict]) -> None:
+# ── README updater ────────────────────────────────────────────────────────────
+def update_readme(problems: list) -> None:
     """
-    Regenerate the <!-- LEETCODE_STATS_START/END --> block in README.md.
+    Always rewrites the stats block with a fresh timestamp —
+    this guarantees a daily git diff → daily commit → daily contribution ✅
     """
     easy   = [p for p in problems if p["difficulty"] == "Easy"]
     medium = [p for p in problems if p["difficulty"] == "Medium"]
     hard   = [p for p in problems if p["difficulty"] == "Hard"]
     total  = len(problems)
 
-    sorted_p = sorted(problems, key=lambda x: int(x["id"]))
+    now_ist = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     rows = "\n".join(
         f"| `{int(p['id']):04d}` "
@@ -181,7 +163,7 @@ def update_readme(problems: list[dict]) -> None:
         f"| `{p['lang']}` "
         f"| {p['date']} "
         f"| {p['tags'] or '—'} |"
-        for p in sorted_p
+        for p in sorted(problems, key=lambda x: int(x["id"]))
     )
 
     block = f"""\
@@ -195,7 +177,7 @@ def update_readme(problems: list[dict]) -> None:
 | 🔴 Hard    | **{len(hard)}** |
 | ⚡ **Total** | **{total}** |
 
-> Last synced: {datetime.now(tz=timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
+> 🕐 Last synced: `{now_ist}` — auto-updates every day at 12:00 AM IST
 
 ## 📋 All Solutions
 
@@ -218,10 +200,10 @@ def update_readme(problems: list[dict]) -> None:
         content += "\n\n" + block + "\n"
 
     readme_path.write_text(content, encoding="utf-8")
-    print(f"\n  📝  README updated — {total} problem(s) listed.")
+    print(f"\n  📝  README updated — {total} problems · synced at {now_ist}")
 
 
-# ── Entry point ───────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print("  LeetCode → GitHub DSA Sync")
@@ -229,14 +211,16 @@ def main():
     print(f"  Time : {datetime.now(tz=timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
-    submissions = fetch_all_accepted_submissions()
+    submissions = fetch_all_accepted()
 
     if not submissions:
         print("  ⚠️  No accepted submissions found. Check your session cookie.")
+        # Still update README timestamp so today's commit is not skipped
+        update_readme([])
         sys.exit(0)
 
-    seen     : set[str] = set()
-    problems : list[dict] = []
+    seen:     set  = set()
+    problems: list = []
     new_count = 0
 
     for sub in submissions:
@@ -246,10 +230,9 @@ def main():
         seen.add(slug)
 
         details = fetch_problem_details(slug)
-        time.sleep(0.5)   # rate-limit GraphQL calls
+        time.sleep(0.5)
 
-        is_new = write_solution(sub, details)
-        if is_new:
+        if write_solution(sub, details):
             new_count += 1
 
         problems.append({
@@ -264,10 +247,11 @@ def main():
             "tags":       ", ".join(t["name"] for t in details.get("topicTags", [])),
         })
 
+    # ✅ Always update README — this guarantees a daily commit even on rest days
     update_readme(problems)
 
     print(f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(f"  ✅  Sync complete — {new_count} new solution(s) added.")
+    print(f"  ✅  Done — {new_count} new solution(s) added.")
     print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
 
