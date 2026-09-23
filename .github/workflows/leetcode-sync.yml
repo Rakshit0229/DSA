@@ -2,11 +2,11 @@ name: 🔄 Sync LeetCode Solutions
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Every day at midnight UTC (5:30 AM IST)
+    - cron: "30 18 * * *"  # Runs daily at 12:00 AM IST (6:30 PM UTC)
   workflow_dispatch:        # Manual trigger from Actions tab
 
 permissions:
-  contents: write           # Needed to commit & push solution files
+  contents: write
 
 jobs:
   sync:
@@ -14,40 +14,32 @@ jobs:
     name: Fetch & Commit Solutions
 
     steps:
-      # ── 1. Checkout repo ────────────────────────────────────────────────────
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ── 2. Python setup ─────────────────────────────────────────────────────
       - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          # ✅ removed cache: pip (no requirements.txt needed)
 
-      # ── 3. Install dependencies ─────────────────────────────────────────────
       - name: 📦 Install Dependencies
         run: pip install requests
 
-      # ── 4. Run the sync script ───────────────────────────────────────────────
       - name: ⚡ Sync LeetCode Solutions
         env:
           LEETCODE_SESSION:    ${{ secrets.LEETCODE_SESSION }}
           LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
         run: python sync.py
 
-      # ── 5. Commit & push if anything changed ────────────────────────────────
       - name: 📤 Commit & Push Changes
         run: |
-          git config user.name  "LeetCode Sync Bot 🤖"
-          git config user.email "actions@github.com"
+          # ✅ Use YOUR GitHub email so commits count toward your streak
+          git config user.name  "Rakshit0229"
+          git config user.email "rakshitmishra029@gmail.com"
           git add .
-          if git diff --staged --quiet; then
-            echo "✅ Nothing new to commit — already up to date."
-          else
-            git commit -m "🤖 Sync LeetCode solutions — $(date +'%Y-%m-%d')"
-            git push
-            echo "✅ Solutions pushed successfully."
-          fi
+          # Always commits — even if no new solutions (README timestamp updates daily)
+          git diff --staged --quiet && git diff --quiet || \
+          git commit -m "🤖 LeetCode Sync — $(date +'%Y-%m-%d %H:%M IST')" && \
+          git push || echo "Nothing to commit today."
