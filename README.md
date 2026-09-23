@@ -72,11 +72,11 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **17** |
-| 🟡 Medium  | **2** |
+| 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **19** |
+| ⚡ **Total** | **20** |
 
-> Last synced: 2026-09-23 02:37 UTC
+> 🕐 Last synced: `2026-09-23 18:53 UTC` — auto-updates every day at 12:00 AM IST
 
 ## 📋 All Solutions
 
@@ -85,6 +85,7 @@ LeetCode Account (Rakshit02)
 | `0001` | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | `cpp` | 2026-05-09 | Array, Hash Table |
 | `0007` | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | `cpp` | 2026-09-22 | Math |
 | `0009` | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | `cpp` | 2026-05-09 | Math |
+| `0050` | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | `cpp` | 2026-09-23 | Math, Recursion |
 | `0191` | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | `cpp` | 2026-09-19 | Divide and Conquer, Bit Manipulation |
 | `0202` | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | `cpp` | 2026-09-20 | Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm |
 | `0231` | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | `cpp` | 2026-09-22 | Math, Bit Manipulation, Recursion |
