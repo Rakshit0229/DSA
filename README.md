@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **17** |
+| 🟢 Easy    | **19** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **20** |
+| ⚡ **Total** | **22** |
 
-> 🕐 Last synced: `2026-09-24 21:42 UTC` — auto-updates every day at 12:00 AM IST
+> 🕐 Last synced: `2026-09-25 21:24 UTC` — auto-updates every day at 12:00 AM IST
 
 ## 📋 All Solutions
 
@@ -86,6 +86,7 @@ LeetCode Account (Rakshit02)
 | `0007` | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | `cpp` | 2026-09-22 | Math |
 | `0009` | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | `cpp` | 2026-05-09 | Math |
 | `0050` | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | `cpp` | 2026-09-23 | Math, Recursion |
+| `0121` | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | `cpp` | 2026-09-25 | Array, Dynamic Programming |
 | `0191` | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | `cpp` | 2026-09-19 | Divide and Conquer, Bit Manipulation |
 | `0202` | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | `cpp` | 2026-09-20 | Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm |
 | `0231` | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | `cpp` | 2026-09-22 | Math, Bit Manipulation, Recursion |
@@ -96,6 +97,7 @@ LeetCode Account (Rakshit02)
 | `0412` | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | `cpp` | 2026-09-19 | Math, String, Simulation |
 | `0476` | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | `cpp` | 2026-09-21 | Bit Manipulation |
 | `0507` | [Perfect Number](https://leetcode.com/problems/perfect-number/) | Easy | `cpp` | 2026-09-20 | Math |
+| `0728` | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | `cpp` | 2026-09-24 | Math |
 | `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
 | `1013` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | `cpp` | 2026-09-19 | Math, Dynamic Programming, Recursion, Memoization |
 | `1054` | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | `cpp` | 2026-09-22 | Bit Manipulation |
