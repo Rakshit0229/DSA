@@ -1,0 +1,50 @@
+name: 🔄 Sync LeetCode Solutions
+
+on:
+  schedule:
+    - cron: "30 18 * * *"  # Every day at 12:00 AM IST (6:30 PM UTC)
+  workflow_dispatch:        # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    name: Fetch & Commit Solutions
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Install Dependencies
+        run: pip install requests
+
+      - name: ⚡ Sync LeetCode Solutions
+        env:
+          LEETCODE_SESSION:    ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        run: python sync.py
+
+      - name: 📤 Commit & Push Changes
+        run: |
+          # ✅ CORRECT GitHub account email — commits now show as Rakshit0229
+          git config user.name  "Rakshit0229"
+          git config user.email "rakshit.25bcon2222@jecrcu.edu.in"
+          git add .
+          if git diff --staged --quiet; then
+            echo "✅ Nothing new to commit today."
+          else
+            git commit -m "🤖 LeetCode Sync — $(date +'%Y-%m-%d %H:%M IST')"
+            git pull --rebase origin main
+            git push https://Rakshit0229:${{ secrets.GH_PAT }}@github.com/Rakshit0229/DSA.git HEAD:main
+            echo "✅ Pushed! Contribution counted for Rakshit0229 🟩"
+          fi
