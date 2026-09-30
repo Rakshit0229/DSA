@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **31** |
+| 🟢 Easy    | **32** |
 | 🟡 Medium  | **6** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **37** |
+| ⚡ **Total** | **38** |
 
-> Last synced: 2026-09-29 22:04 UTC
+> Last synced: 2026-09-30 21:16 UTC
 
 ## 📋 All Solutions
 
@@ -107,6 +107,7 @@ LeetCode Account (Rakshit02)
 | `0728` | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | `cpp` | 2026-09-24 | Math |
 | `0792` | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | `cpp` | 2026-09-26 | Array, Binary Search |
 | `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
+| `0978` | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | `cpp` | 2026-09-30 | Array |
 | `1013` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | `cpp` | 2026-09-19 | Math, Dynamic Programming, Recursion, Memoization |
 | `1054` | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | `cpp` | 2026-09-22 | Bit Manipulation |
 | `1319` | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | `cpp` | 2026-09-27 | Array, Hash Table |
@@ -118,7 +119,7 @@ LeetCode Account (Rakshit02)
 | `4058` | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | `cpp` | 2026-09-27 | Array, Simulation |
 | `4252` | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | Easy | `cpp` | 2026-09-27 | Array, Hash Table, Counting |
 | `4354` | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | Easy | `cpp` | 2026-09-27 | Array, Counting |
-| `4398` | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | Medium | `cpp` | 2026-09-27 | — |
+| `4398` | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | Medium | `cpp` | 2026-09-27 | Array, Brainteaser |
 <!-- LEETCODE_STATS_END -->
 
 ---

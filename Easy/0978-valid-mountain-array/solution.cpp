@@ -1,0 +1,30 @@
+// ╔══════════════════════════════════════════════╗
+//   Problem   : Valid Mountain Array
+//   Difficulty: Easy
+//   Tags      : Array
+//   Language  : cpp
+//   Solved on : 2026-09-30
+//   URL       : https://leetcode.com/problems/valid-mountain-array/
+// ╚══════════════════════════════════════════════╝
+
+class Solution {
+public:
+    bool validMountainArray(vector<int>& arr) {
+        int n=arr.size();
+        if(n<3){
+            return false;
+        }
+        int i=0;
+        while(i+1<n && arr[i+1]>arr[i]){
+            i++;
+        }
+        
+        if(i==0 || i==n-1){
+            return false;
+        }
+        while(i+1<n && arr[i+1]<arr[i]){
+            i++;
+        }
+        return i==n-1;
+    }
+};
