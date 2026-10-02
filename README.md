@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **38** |
+| 🟢 Easy    | **41** |
 | 🟡 Medium  | **6** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **44** |
+| ⚡ **Total** | **47** |
 
-> Last synced: 2026-10-01 22:49 UTC
+> Last synced: 2026-10-02 22:24 UTC
 
 ## 📋 All Solutions
 
@@ -106,8 +106,11 @@ LeetCode Account (Rakshit02)
 | `0349` | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | `cpp` | 2026-10-01 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
 | `0367` | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | `cpp` | 2026-09-20 | Math, Binary Search |
 | `0412` | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | `cpp` | 2026-09-19 | Math, String, Simulation |
+| `0448` | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | `cpp` | 2026-10-02 | Array, Hash Table |
 | `0476` | [Number Complement](https://leetcode.com/problems/number-complement/) | Easy | `cpp` | 2026-09-21 | Bit Manipulation |
 | `0507` | [Perfect Number](https://leetcode.com/problems/perfect-number/) | Easy | `cpp` | 2026-09-20 | Math |
+| `0628` | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | `cpp` | 2026-10-01 | Array, Math, Sorting |
+| `0645` | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | `cpp` | 2026-10-02 | Array, Hash Table, Bit Manipulation, Sorting |
 | `0728` | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | `cpp` | 2026-09-24 | Math |
 | `0792` | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | `cpp` | 2026-09-26 | Array, Binary Search |
 | `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
