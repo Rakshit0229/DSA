@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **47** |
+| 🟢 Easy    | **54** |
 | 🟡 Medium  | **6** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **53** |
+| ⚡ **Total** | **60** |
 
-> Last synced: 2026-10-03 21:36 UTC
+> Last synced: 2026-10-04 21:43 UTC
 
 ## 📋 All Solutions
 
@@ -115,14 +115,18 @@ LeetCode Account (Rakshit02)
 | `0728` | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | `cpp` | 2026-09-24 | Math |
 | `0792` | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | `cpp` | 2026-09-26 | Array, Binary Search |
 | `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
+| `0932` | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | `cpp` | 2026-10-03 | Array |
 | `0978` | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | `cpp` | 2026-09-30 | Array |
 | `0981` | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | `cpp` | 2026-10-03 | Array, String, Longest Increasing Subsequence |
 | `1013` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | `cpp` | 2026-09-19 | Math, Dynamic Programming, Recursion, Memoization |
 | `1054` | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | `cpp` | 2026-09-22 | Bit Manipulation |
+| `1168` | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | Easy | `cpp` | 2026-10-04 | Array, Two Pointers |
 | `1236` | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | `cpp` | 2026-10-03 | Math, Dynamic Programming, Memoization |
 | `1319` | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | `cpp` | 2026-09-27 | Array, Hash Table |
 | `1406` | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | `cpp` | 2026-09-19 | Math |
+| `1426` | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy | `cpp` | 2026-10-04 | Array, Math |
 | `1444` | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | `cpp` | 2026-09-20 | Math, Bit Manipulation |
+| `1510` | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | Easy | `cpp` | 2026-10-04 | Array, Hash Table, Counting |
 | `1646` | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | Easy | `cpp` | 2026-10-01 | Array, Binary Search |
 | `1848` | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | Easy | `cpp` | 2026-10-03 | Array, Hash Table, Counting |
 | `2102` | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | Easy | `cpp` | 2026-10-02 | Array, Prefix Sum |
@@ -130,9 +134,12 @@ LeetCode Account (Rakshit02)
 | `2383` | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | `cpp` | 2026-06-28 | Math |
 | `2519` | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | Medium | `cpp` | 2026-09-29 | Array, Bit Manipulation |
 | `3869` | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | Easy | `cpp` | 2026-09-29 | Array, Math |
+| `3918` | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | `cpp` | 2026-10-03 | Math |
 | `3995` | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | `cpp` | 2026-10-02 | Math, Number Theory |
 | `4058` | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | `cpp` | 2026-09-27 | Array, Simulation |
+| `4245` | [Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | `cpp` | 2026-10-03 | Math |
 | `4252` | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | Easy | `cpp` | 2026-09-27 | Array, Hash Table, Counting |
+| `4256` | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | Easy | `cpp` | 2026-10-03 | Array, Math |
 | `4354` | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | Easy | `cpp` | 2026-09-27 | Array, Counting |
 | `4398` | [Transform Array Using Pair Operations](https://leetcode.com/problems/transform-array-using-pair-operations/) | Medium | `cpp` | 2026-09-27 | Array, Brainteaser |
 <!-- LEETCODE_STATS_END -->
