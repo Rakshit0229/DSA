@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **56** |
-| 🟡 Medium  | **8** |
+| 🟢 Easy    | **61** |
+| 🟡 Medium  | **9** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **64** |
+| ⚡ **Total** | **70** |
 
-> Last synced: 2026-10-06 00:13 UTC
+> Last synced: 2026-10-06 22:44 UTC
 
 ## 📋 All Solutions
 
@@ -91,6 +91,7 @@ LeetCode Account (Rakshit02)
 | `0066` | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | `cpp` | 2026-09-28 | Array, Math |
 | `0069` | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | `cpp` | 2026-10-05 | Math, Binary Search, Newton's Method |
 | `0070` | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | `cpp` | 2026-09-27 | Math, Dynamic Programming, Memoization |
+| `0075` | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | `cpp` | 2026-10-06 | Array, Two Pointers, Sorting, Quicksort, Bubble Sort |
 | `0118` | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | `cpp` | 2026-10-01 | Array, Dynamic Programming |
 | `0121` | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | `cpp` | 2026-09-25 | Array, Dynamic Programming |
 | `0136` | [Single Number](https://leetcode.com/problems/single-number/) | Easy | `cpp` | 2026-09-29 | Array, Bit Manipulation |
@@ -114,11 +115,15 @@ LeetCode Account (Rakshit02)
 | `0645` | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | `cpp` | 2026-10-02 | Array, Hash Table, Bit Manipulation, Sorting |
 | `0724` | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | `cpp` | 2026-10-02 | Array, Prefix Sum |
 | `0728` | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | `cpp` | 2026-09-24 | Math |
+| `0748` | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | Easy | `cpp` | 2026-10-06 | Array, Sorting |
 | `0792` | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | `cpp` | 2026-09-26 | Array, Binary Search |
 | `0882` | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Medium | `cpp` | 2026-10-05 | Array, Binary Search, Ternary Search |
+| `0890` | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | `cpp` | 2026-10-06 | Array, Greedy |
 | `0898` | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | `cpp` | 2026-10-05 | Array, Matrix, Simulation |
 | `0909` | [Stone Game](https://leetcode.com/problems/stone-game/) | Medium | `cpp` | 2026-08-07 | Array, Math, Dynamic Programming, Minimax, Game Theory, Zero-Sum Game |
 | `0932` | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | `cpp` | 2026-10-03 | Array |
+| `0941` | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Easy | `cpp` | 2026-10-06 | Array, Two Pointers, Sorting |
+| `0944` | [Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | `cpp` | 2026-10-06 | Array, Math |
 | `0978` | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Easy | `cpp` | 2026-09-30 | Array |
 | `0981` | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | `cpp` | 2026-10-03 | Array, String, Longest Increasing Subsequence |
 | `1013` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | `cpp` | 2026-09-19 | Math, Dynamic Programming, Recursion, Memoization |
@@ -134,6 +139,7 @@ LeetCode Account (Rakshit02)
 | `1848` | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | Easy | `cpp` | 2026-10-03 | Array, Hash Table, Counting |
 | `2102` | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) | Easy | `cpp` | 2026-10-02 | Array, Prefix Sum |
 | `2181` | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | Easy | `cpp` | 2026-10-01 | Array |
+| `2274` | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) | Easy | `cpp` | 2026-10-06 | Array, Hash Table, Sorting, Simulation |
 | `2383` | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | `cpp` | 2026-06-28 | Math |
 | `2508` | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | Medium | `cpp` | 2026-10-05 | Array, Matrix, Prefix Sum |
 | `2519` | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | Medium | `cpp` | 2026-09-29 | Array, Bit Manipulation |
