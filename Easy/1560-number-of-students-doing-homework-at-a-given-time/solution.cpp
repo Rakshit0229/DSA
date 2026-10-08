@@ -1,0 +1,21 @@
+// ╔══════════════════════════════════════════════╗
+//   Problem   : Number of Students Doing Homework at a Given Time
+//   Difficulty: Easy
+//   Tags      : Array
+//   Language  : cpp
+//   Solved on : 2026-10-08
+//   URL       : https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/
+// ╚══════════════════════════════════════════════╝
+
+class Solution {
+public:
+    int busyStudent(vector<int>& startTime, vector<int>& endTime, int queryTime) {
+        int count=0;
+        for(int i=0; i<startTime.size(); i++){
+                if(startTime[i]<=queryTime && endTime[i]>=queryTime ){
+                    count++;
+                }
+        }
+return count; 
+    }
+};

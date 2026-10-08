@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **67** |
+| 🟢 Easy    | **77** |
 | 🟡 Medium  | **11** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **78** |
+| ⚡ **Total** | **88** |
 
-> Last synced: 2026-10-07 23:14 UTC
+> Last synced: 2026-10-08 23:29 UTC
 
 ## 📋 All Solutions
 
@@ -134,13 +134,23 @@ LeetCode Account (Rakshit02)
 | `1054` | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | `cpp` | 2026-09-22 | Bit Manipulation |
 | `1137` | [Height Checker](https://leetcode.com/problems/height-checker/) | Easy | `cpp` | 2026-10-07 | Array, Sorting, Counting Sort, Bubble Sort |
 | `1168` | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | Easy | `cpp` | 2026-10-04 | Array, Two Pointers |
+| `1221` | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | `cpp` | 2026-10-08 | Array |
+| `1231` | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | `cpp` | 2026-10-08 | Array |
 | `1236` | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | `cpp` | 2026-10-03 | Math, Dynamic Programming, Memoization |
 | `1319` | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | `cpp` | 2026-09-27 | Array, Hash Table |
 | `1406` | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | `cpp` | 2026-09-19 | Math |
+| `1421` | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | `cpp` | 2026-10-08 | Array, Math |
 | `1426` | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy | `cpp` | 2026-10-04 | Array, Math |
 | `1444` | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | `cpp` | 2026-09-20 | Math, Bit Manipulation |
+| `1476` | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | `cpp` | 2026-10-08 | Array, Binary Search, Matrix |
+| `1482` | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | `cpp` | 2026-10-08 | Array, Hash Table, Sorting, Counting Sort |
+| `1486` | [Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | Easy | `cpp` | 2026-10-08 | Array, Two Pointers, Binary Search, Sorting |
 | `1501` | [Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | Medium | `cpp` | 2026-10-06 | Math, Geometry |
 | `1510` | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | Easy | `cpp` | 2026-10-04 | Array, Hash Table, Counting |
+| `1560` | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | Easy | `cpp` | 2026-10-08 | Array |
+| `1570` | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | `cpp` | 2026-10-08 | Array, Stack, Monotonic Stack |
+| `1574` | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | `cpp` | 2026-10-08 | Array, Sorting, Heap (Priority Queue) |
+| `1580` | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | `cpp` | 2026-10-08 | Array |
 | `1646` | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | Easy | `cpp` | 2026-10-01 | Array, Binary Search |
 | `1806` | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/) | Easy | `cpp` | 2026-10-07 | Math, Simulation |
 | `1848` | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | Easy | `cpp` | 2026-10-03 | Array, Hash Table, Counting |
