@@ -5,16 +5,15 @@
   Author  : Rakshit Mishra
   GitHub  : github.com/Rakshit0229/DSA
   LeetCode: leetcode.com/u/Rakshit02
+  Mode    : 1 problem = 1 commit = 1 contribution 🟩
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Fetches every accepted LeetCode submission,
-organizes it by difficulty, and updates the
-README with a live progress table.
 """
 
 import os
 import re
 import sys
 import time
+import subprocess
 import requests
 from pathlib import Path
 from datetime import datetime, timezone
@@ -26,12 +25,16 @@ SUBMISSIONS_URL  = "https://leetcode.com/api/submissions/"
 
 LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION", "")
 CSRF_TOKEN       = os.environ.get("LEETCODE_CSRF_TOKEN", "")
+GH_PAT           = os.environ.get("GH_PAT", "")
+GH_REPO          = "Rakshit0229/DSA"
+GIT_NAME         = "Rakshit0229"
+GIT_EMAIL        = "rakshit.25bcon2222@jecrcu.edu.in"
 
 if not LEETCODE_SESSION or not CSRF_TOKEN:
     print("❌  Missing secrets: LEETCODE_SESSION or LEETCODE_CSRF_TOKEN")
     sys.exit(1)
 
-# ── Language → file extension ─────────────────────────────────────────────────
+# ── Language maps ─────────────────────────────────────────────────────────────
 LANG_EXT = {
     "python3": "py",  "python": "py",
     "cpp":     "cpp", "java":   "java",
@@ -42,8 +45,6 @@ LANG_EXT = {
     "rust":    "rs",  "scala":   "scala",
     "mysql":   "sql", "bash":    "sh",
 }
-
-# ── Comment style per extension ───────────────────────────────────────────────
 LANG_CMT = {
     "py": "#",  "cpp": "//", "java": "//",
     "js": "//", "ts":  "//", "c":    "//",
@@ -51,6 +52,35 @@ LANG_CMT = {
     "swift": "//","kt": "//","rs":   "//",
     "scala": "//","sql": "--","sh":  "#",
 }
+
+DIFF_EMOJI = {"Easy": "🟢", "Medium": "🟡", "Hard": "🔴"}
+
+# ── Git helpers ───────────────────────────────────────────────────────────────
+def git(args: list[str]) -> str:
+    result = subprocess.run(
+        ["git"] + args,
+        capture_output=True, text=True
+    )
+    return result.stdout.strip()
+
+def git_setup():
+    git(["config", "user.name",  GIT_NAME])
+    git(["config", "user.email", GIT_EMAIL])
+    if GH_PAT:
+        remote = f"https://{GIT_NAME}:{GH_PAT}@github.com/{GH_REPO}.git"
+        git(["remote", "set-url", "origin", remote])
+
+def git_commit_and_push(message: str):
+    """Stage all changes, commit, pull --rebase, then push."""
+    git(["add", "."])
+    # Check if there's anything to commit
+    status = git(["diff", "--staged", "--stat"])
+    if not status:
+        return False
+    git(["commit", "-m", message])
+    git(["pull", "--rebase", "origin", "main"])
+    git(["push", "origin", "main"])
+    return True
 
 # ── HTTP helpers ──────────────────────────────────────────────────────────────
 def _headers():
@@ -63,68 +93,52 @@ def _headers():
     }
 
 def _gql(query: str, variables: dict = None) -> dict:
-    """Run a GraphQL query against LeetCode."""
     r = requests.post(
         GRAPHQL_URL,
         json={"query": query, "variables": variables or {}},
-        headers=_headers(),
-        timeout=15,
+        headers=_headers(), timeout=15,
     )
     r.raise_for_status()
     return r.json().get("data", {})
 
-# ── LeetCode API calls ────────────────────────────────────────────────────────
+# ── LeetCode API ──────────────────────────────────────────────────────────────
 def fetch_problem_details(slug: str) -> dict:
-    """Return questionId, title, difficulty, topicTags for a slug."""
     q = """
     query ($titleSlug: String!) {
         question(titleSlug: $titleSlug) {
-            questionId
-            title
-            difficulty
+            questionId title difficulty
             topicTags { name }
         }
     }
     """
     return _gql(q, {"titleSlug": slug}).get("question", {})
 
-
-def fetch_all_accepted_submissions() -> list[dict]:
-    """
-    Paginate through /api/submissions/ and return every accepted submission.
-    Each submission dict includes: id, title, title_slug, lang, code, timestamp.
-    """
+def fetch_all_accepted() -> list:
     results, offset = [], 0
     print("  Fetching submissions", end="", flush=True)
-
     while True:
-        url = f"{SUBMISSIONS_URL}?offset={offset}&limit=20"
-        r   = requests.get(url, headers=_headers(), timeout=15)
+        r = requests.get(
+            f"{SUBMISSIONS_URL}?offset={offset}&limit=20",
+            headers=_headers(), timeout=15
+        )
         r.raise_for_status()
         data = r.json()
-
-        batch    = data.get("submissions_dump", [])
-        accepted = [s for s in batch if s.get("status_display") == "Accepted"]
+        accepted = [s for s in data.get("submissions_dump", [])
+                    if s.get("status_display") == "Accepted"]
         results.extend(accepted)
-
         print(".", end="", flush=True)
         if not data.get("has_next"):
             break
         offset += 20
-        time.sleep(1.2)   # be polite to LeetCode servers
-
+        time.sleep(1.2)
     print(f"  done ({len(results)} accepted)\n")
     return results
 
-
-# ── File creation ─────────────────────────────────────────────────────────────
-def write_solution(sub: dict, details: dict) -> bool:
-    """
-    Create  <Difficulty>/<id>-<slug>/solution.<ext>
-    Returns True if a new file was written, False if it already existed.
-    """
+# ── File writer ───────────────────────────────────────────────────────────────
+def write_solution(sub: dict, details: dict) -> tuple[bool, dict]:
+    """Write solution file. Returns (is_new, meta)."""
     q_id  = str(details.get("questionId", "0000")).zfill(4)
-    title = details.get("title",  sub.get("title", "Unknown"))
+    title = details.get("title", sub.get("title", "Unknown"))
     slug  = sub.get("title_slug", "unknown")
     diff  = details.get("difficulty", "Medium")
     lang  = sub.get("lang", "python3")
@@ -137,14 +151,17 @@ def write_solution(sub: dict, details: dict) -> bool:
     cmt  = LANG_CMT.get(ext, "//")
     tags = ", ".join(t["name"] for t in details.get("topicTags", []))
 
-    # folder: e.g.  Easy/0001-two-sum/
     folder   = Path(diff) / f"{q_id}-{slug}"
     folder.mkdir(parents=True, exist_ok=True)
-
-    # allow multiple-language solutions for the same problem
     filepath = folder / f"solution.{ext}"
+
+    meta = {
+        "id": q_id, "title": title, "slug": slug,
+        "diff": diff, "lang": lang, "date": ts, "tags": tags,
+    }
+
     if filepath.exists():
-        return False          # already synced — skip
+        return False, meta
 
     header = (
         f"{cmt} ╔══════════════════════════════════════════════╗\n"
@@ -156,33 +173,26 @@ def write_solution(sub: dict, details: dict) -> bool:
         f"{cmt}   URL       : https://leetcode.com/problems/{slug}/\n"
         f"{cmt} ╚══════════════════════════════════════════════╝\n\n"
     )
-
     filepath.write_text(header + code, encoding="utf-8")
-    print(f"    ✅  [{q_id}] {title}  ({lang})")
-    return True
+    return True, meta
 
-
-# ── README generator ──────────────────────────────────────────────────────────
-def update_readme(problems: list[dict]) -> None:
-    """
-    Regenerate the <!-- LEETCODE_STATS_START/END --> block in README.md.
-    """
-    easy   = [p for p in problems if p["difficulty"] == "Easy"]
-    medium = [p for p in problems if p["difficulty"] == "Medium"]
-    hard   = [p for p in problems if p["difficulty"] == "Hard"]
-    total  = len(problems)
-
-    sorted_p = sorted(problems, key=lambda x: int(x["id"]))
+# ── README updater ────────────────────────────────────────────────────────────
+def update_readme(problems: list) -> None:
+    easy   = [p for p in problems if p["diff"] == "Easy"]
+    medium = [p for p in problems if p["diff"] == "Medium"]
+    hard   = [p for p in problems if p["diff"] == "Hard"]
 
     rows = "\n".join(
         f"| `{int(p['id']):04d}` "
         f"| [{p['title']}](https://leetcode.com/problems/{p['slug']}/) "
-        f"| {p['difficulty']} "
+        f"| {DIFF_EMOJI.get(p['diff'], '')} {p['diff']} "
         f"| `{p['lang']}` "
         f"| {p['date']} "
         f"| {p['tags'] or '—'} |"
-        for p in sorted_p
+        for p in sorted(problems, key=lambda x: int(x["id"]))
     )
+
+    now = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     block = f"""\
 <!-- LEETCODE_STATS_START -->
@@ -193,9 +203,9 @@ def update_readme(problems: list[dict]) -> None:
 | 🟢 Easy    | **{len(easy)}** |
 | 🟡 Medium  | **{len(medium)}** |
 | 🔴 Hard    | **{len(hard)}** |
-| ⚡ **Total** | **{total}** |
+| ⚡ **Total** | **{len(problems)}** |
 
-> Last synced: {datetime.now(tz=timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
+> 🕐 Last synced: `{now}`
 
 ## 📋 All Solutions
 
@@ -205,38 +215,36 @@ def update_readme(problems: list[dict]) -> None:
 <!-- LEETCODE_STATS_END -->"""
 
     readme_path = Path("README.md")
-    content     = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
+    content = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
 
     if "<!-- LEETCODE_STATS_START -->" in content:
         content = re.sub(
             r"<!-- LEETCODE_STATS_START -->.*?<!-- LEETCODE_STATS_END -->",
-            block,
-            content,
-            flags=re.DOTALL,
+            block, content, flags=re.DOTALL,
         )
     else:
         content += "\n\n" + block + "\n"
 
     readme_path.write_text(content, encoding="utf-8")
-    print(f"\n  📝  README updated — {total} problem(s) listed.")
 
-
-# ── Entry point ───────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print("  LeetCode → GitHub DSA Sync")
     print(f"  User : {USERNAME}")
+    print(f"  Mode : 1 problem = 1 commit = 1 contribution 🟩")
     print(f"  Time : {datetime.now(tz=timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
-    submissions = fetch_all_accepted_submissions()
+    git_setup()
 
+    submissions = fetch_all_accepted()
     if not submissions:
-        print("  ⚠️  No accepted submissions found. Check your session cookie.")
+        print("  ⚠️  No accepted submissions found. Check session cookie.")
         sys.exit(0)
 
-    seen     : set[str] = set()
-    problems : list[dict] = []
+    seen:     set  = set()
+    all_problems: list = []
     new_count = 0
 
     for sub in submissions:
@@ -246,28 +254,38 @@ def main():
         seen.add(slug)
 
         details = fetch_problem_details(slug)
-        time.sleep(0.5)   # rate-limit GraphQL calls
+        time.sleep(0.5)
 
-        is_new = write_solution(sub, details)
+        is_new, meta = write_solution(sub, details)
+        all_problems.append(meta)
+
         if is_new:
             new_count += 1
+            emoji = DIFF_EMOJI.get(meta["diff"], "")
 
-        problems.append({
-            "id":         details.get("questionId", "0"),
-            "title":      details.get("title", sub.get("title", "Unknown")),
-            "slug":       slug,
-            "difficulty": details.get("difficulty", "Medium"),
-            "lang":       sub.get("lang", ""),
-            "date":       datetime.fromtimestamp(
-                              int(sub.get("timestamp", 0)), tz=timezone.utc
-                          ).strftime("%Y-%m-%d"),
-            "tags":       ", ".join(t["name"] for t in details.get("topicTags", [])),
-        })
+            # ✅ Update README with latest stats
+            update_readme(all_problems)
 
-    update_readme(problems)
+            # ✅ ONE commit per problem = ONE contribution on GitHub
+            msg = (
+                f"{emoji} [{meta['id']}] {meta['title']} "
+                f"({meta['diff']}) — {meta['lang']}"
+            )
+            pushed = git_commit_and_push(msg)
+            if pushed:
+                print(f"    🟩  Committed & pushed: {meta['title']}")
+            time.sleep(2)  # brief pause between pushes
+
+    # Final README update (even if no new problems — keeps timestamp fresh)
+    if new_count == 0:
+        update_readme(all_problems)
+        git_commit_and_push(
+            f"📝 Daily README sync — {datetime.now(tz=timezone.utc).strftime('%Y-%m-%d')}"
+        )
+        print("  📝  No new problems — README timestamp updated.")
 
     print(f"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(f"  ✅  Sync complete — {new_count} new solution(s) added.")
+    print(f"  ✅  Done — {new_count} new solution(s) → {new_count} new contribution(s) 🟩")
     print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
 
