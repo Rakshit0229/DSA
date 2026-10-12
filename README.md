@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **4** |
+| 🟢 Easy    | **5** |
 | 🟡 Medium  | **5** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **9** |
+| ⚡ **Total** | **10** |
 
 > 🕐 Last synced: `2026-10-12 19:38 UTC`
 
@@ -89,6 +89,7 @@ LeetCode Account (Rakshit02)
 | `0215` | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | `cpp` | 2026-10-12 | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect |
 | `0782` | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | `cpp` | 2026-10-10 | Hash Table, String |
 | `1833` | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | `cpp` | 2026-10-10 | Array, Prefix Sum |
+| `1839` | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | `cpp` | 2026-10-10 | Array, Bit Manipulation |
 | `1950` | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | 🟢 Easy | `cpp` | 2026-10-10 | Array, Math |
 | `2844` | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy | `cpp` | 2026-10-11 | Array, Enumeration |
 <!-- LEETCODE_STATS_END -->
