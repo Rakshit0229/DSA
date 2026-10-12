@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **3** |
+| ⚡ **Total** | **4** |
 
 > 🕐 Last synced: `2026-10-12 19:38 UTC`
 
@@ -85,6 +85,7 @@ LeetCode Account (Rakshit02)
 | `0034` | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🟡 Medium | `cpp` | 2026-10-11 | Array, Binary Search |
 | `0204` | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | `cpp` | 2026-10-12 | Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve |
 | `0215` | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | `cpp` | 2026-10-12 | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect |
+| `2844` | [Sum of Squares of Special Elements ](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | 🟢 Easy | `cpp` | 2026-10-11 | Array, Enumeration |
 <!-- LEETCODE_STATS_END -->
 
 ---
