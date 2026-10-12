@@ -72,16 +72,17 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
-> 🕐 Last synced: `2026-10-12 19:37 UTC`
+> 🕐 Last synced: `2026-10-12 19:38 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0204` | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | `cpp` | 2026-10-12 | Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve |
 | `0215` | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | `cpp` | 2026-10-12 | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect |
 <!-- LEETCODE_STATS_END -->
 
