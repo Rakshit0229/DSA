@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **2** |
+| 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-10-13 22:58 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0633` | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | `cpp` | 2026-10-13 | Math, Two Pointers, Binary Search |
+| `2265` | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | 🟡 Medium | `cpp` | 2026-10-13 | Array, Two Pointers, Simulation |
 | `4084` | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium | `cpp` | 2026-10-13 | Math, Greedy |
 <!-- LEETCODE_STATS_END -->
 
