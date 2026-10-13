@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **5** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
-> 🕐 Last synced: `2026-10-13 22:58 UTC`
+> 🕐 Last synced: `2026-10-13 22:59 UTC`
 
 ## 📋 All Solutions
 
@@ -87,6 +87,7 @@ LeetCode Account (Rakshit02)
 | `2265` | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | 🟡 Medium | `cpp` | 2026-10-13 | Array, Two Pointers, Simulation |
 | `4078` | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium | `cpp` | 2026-10-13 | Array, Greedy, Sorting |
 | `4084` | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/) | 🟡 Medium | `cpp` | 2026-10-13 | Math, Greedy |
+| `4450` | [Three Fibonacci Sum](https://leetcode.com/problems/three-fibonacci-sum/) | 🟢 Easy | `cpp` | 2026-10-13 | — |
 <!-- LEETCODE_STATS_END -->
 
 ---
