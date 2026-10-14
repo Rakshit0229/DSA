@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-10-14 21:50 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0033` | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | `cpp` | 2026-10-14 | Array, Binary Search |
 | `0287` | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | `cpp` | 2026-10-14 | Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm |
+| `0496` | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 Easy | `cpp` | 2026-10-14 | Array, Hash Table, Stack, Monotonic Stack |
 <!-- LEETCODE_STATS_END -->
 
 ---
