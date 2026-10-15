@@ -71,20 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
-| 🟡 Medium  | **2** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **3** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-14 21:50 UTC`
+> 🕐 Last synced: `2026-10-15 21:34 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0033` | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | `cpp` | 2026-10-14 | Array, Binary Search |
-| `0287` | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | `cpp` | 2026-10-14 | Array, Two Pointers, Binary Search, Bit Manipulation, Pigeonhole Principle, Floyd's Cycle Finding Algorithm |
-| `0496` | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 Easy | `cpp` | 2026-10-14 | Array, Hash Table, Stack, Monotonic Stack |
+| `0378` | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Binary Search, Sorting, Heap (Priority Queue), Matrix |
 <!-- LEETCODE_STATS_END -->
 
 ---
