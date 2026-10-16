@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **1** |
-| 🟡 Medium  | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-10-16 21:27 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0319` | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Brainteaser |
 | `1086` | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Dynamic Programming, Brainteaser, Game Theory, Impartial Game |
 <!-- LEETCODE_STATS_END -->
 
