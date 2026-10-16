@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **4** |
+| 🟡 Medium  | **5** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **7** |
+| ⚡ **Total** | **8** |
 
 > 🕐 Last synced: `2026-10-16 21:27 UTC`
 
@@ -86,6 +86,7 @@ LeetCode Account (Rakshit02)
 | `0260` | [Single Number III](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Bit Manipulation |
 | `0292` | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Brainteaser, Minimax, Game Theory, Nim Game, Impartial Game |
 | `0319` | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Brainteaser |
+| `0442` | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Hash Table, Sorting |
 | `1086` | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Dynamic Programming, Brainteaser, Game Theory, Impartial Game |
 | `2481` | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Two Pointers, Brainteaser |
 | `3428` | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | `cpp` | 2026-10-15 | Array, Hash Table, Bit Manipulation |
