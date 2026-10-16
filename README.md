@@ -72,18 +72,17 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **1** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-15 21:34 UTC`
+> 🕐 Last synced: `2026-10-16 21:27 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0378` | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Binary Search, Sorting, Heap (Priority Queue), Matrix |
-| `3163` | [Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | 🟢 Easy | `cpp` | 2026-10-15 | Array, Hash Table, Binary Indexed Tree, Segment Tree |
+| `1086` | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Dynamic Programming, Brainteaser, Game Theory, Impartial Game |
 <!-- LEETCODE_STATS_END -->
 
 ---
