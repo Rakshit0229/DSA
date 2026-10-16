@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **2** |
+| 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
 > 🕐 Last synced: `2026-10-16 21:27 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0137` | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Bit Manipulation |
 | `0292` | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Brainteaser, Minimax, Game Theory, Nim Game, Impartial Game |
 | `0319` | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Brainteaser |
 | `1086` | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Dynamic Programming, Brainteaser, Game Theory, Impartial Game |
