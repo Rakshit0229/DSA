@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **6** |
+| 🟡 Medium  | **7** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **9** |
+| ⚡ **Total** | **10** |
 
 > 🕐 Last synced: `2026-10-16 21:27 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0078` | [Subsets](https://leetcode.com/problems/subsets/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Backtracking, Bit Manipulation |
 | `0137` | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Bit Manipulation |
 | `0238` | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Prefix Sum |
 | `0260` | [Single Number III](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Bit Manipulation |
