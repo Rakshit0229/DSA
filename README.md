@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **2** |
+| 🟢 Easy    | **3** |
 | 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **5** |
 
 > 🕐 Last synced: `2026-10-16 21:27 UTC`
 
@@ -86,6 +86,7 @@ LeetCode Account (Rakshit02)
 | `0319` | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Brainteaser |
 | `1086` | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Dynamic Programming, Brainteaser, Game Theory, Impartial Game |
 | `2481` | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Two Pointers, Brainteaser |
+| `3428` | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | `cpp` | 2026-10-15 | Array, Hash Table, Bit Manipulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
