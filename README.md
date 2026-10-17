@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
+| 🟢 Easy    | **4** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **1** |
-| ⚡ **Total** | **7** |
+| ⚡ **Total** | **8** |
 
 > 🕐 Last synced: `2026-10-17 20:47 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `0263` | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math |
 | `0350` | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | `cpp` | 2026-10-17 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
 | `0357` | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Dynamic Programming, Backtracking |
+| `1448` | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math, Greedy |
 | `3859` | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 Easy | `cpp` | 2026-10-17 | Math, Sorting |
 <!-- LEETCODE_STATS_END -->
 
