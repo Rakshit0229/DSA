@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **5** |
+| 🟢 Easy    | **6** |
 | 🟡 Medium  | **4** |
 | 🔴 Hard    | **2** |
-| ⚡ **Total** | **11** |
+| ⚡ **Total** | **12** |
 
 > 🕐 Last synced: `2026-10-17 20:47 UTC`
 
@@ -91,6 +91,7 @@ LeetCode Account (Rakshit02)
 | `0357` | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Dynamic Programming, Backtracking |
 | `0461` | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | 🟢 Easy | `cpp` | 2026-10-17 | Bit Manipulation |
 | `0719` | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | 🔴 Hard | `cpp` | 2026-10-17 | Array, Two Pointers, Binary Search, Sorting |
+| `1395` | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | 🟢 Easy | `cpp` | 2026-10-16 | Array, Math, Geometry |
 | `1448` | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math, Greedy |
 | `3859` | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 Easy | `cpp` | 2026-10-17 | Math, Sorting |
 <!-- LEETCODE_STATS_END -->
