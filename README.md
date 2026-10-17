@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **5** |
-| 🟡 Medium  | **3** |
+| 🟡 Medium  | **4** |
 | 🔴 Hard    | **2** |
-| ⚡ **Total** | **10** |
+| ⚡ **Total** | **11** |
 
 > 🕐 Last synced: `2026-10-17 20:47 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0054` | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | `cpp` | 2026-10-16 | Array, Matrix, Simulation |
 | `0189` | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | `cpp` | 2026-10-17 | Array, Math, Two Pointers |
 | `0223` | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Geometry |
 | `0233` | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | `cpp` | 2026-10-17 | Math, Dynamic Programming, Recursion |
