@@ -72,16 +72,17 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **1** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
-> 🕐 Last synced: `2026-10-17 20:46 UTC`
+> 🕐 Last synced: `2026-10-17 20:47 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0223` | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Geometry |
 | `0233` | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | `cpp` | 2026-10-17 | Math, Dynamic Programming, Recursion |
 | `0263` | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math |
 | `0350` | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | `cpp` | 2026-10-17 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
