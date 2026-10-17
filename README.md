@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **2** |
+| 🟡 Medium  | **3** |
 | 🔴 Hard    | **1** |
-| ⚡ **Total** | **6** |
+| ⚡ **Total** | **7** |
 
 > 🕐 Last synced: `2026-10-17 20:47 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0189` | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | `cpp` | 2026-10-17 | Array, Math, Two Pointers |
 | `0223` | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Geometry |
 | `0233` | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | `cpp` | 2026-10-17 | Math, Dynamic Programming, Recursion |
 | `0263` | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math |
