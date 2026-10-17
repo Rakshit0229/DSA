@@ -71,27 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
-| 🟡 Medium  | **7** |
+| 🟢 Easy    | **1** |
+| 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **10** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-16 21:27 UTC`
+> 🕐 Last synced: `2026-10-17 20:46 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0078` | [Subsets](https://leetcode.com/problems/subsets/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Backtracking, Bit Manipulation |
-| `0137` | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Bit Manipulation |
-| `0238` | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Prefix Sum |
-| `0260` | [Single Number III](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Bit Manipulation |
-| `0292` | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Brainteaser, Minimax, Game Theory, Nim Game, Impartial Game |
-| `0319` | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Brainteaser |
-| `0442` | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | 🟡 Medium | `cpp` | 2026-10-15 | Array, Hash Table, Sorting |
-| `1086` | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | `cpp` | 2026-10-16 | Math, Dynamic Programming, Brainteaser, Game Theory, Impartial Game |
-| `2481` | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | `cpp` | 2026-10-16 | Math, Two Pointers, Brainteaser |
-| `3428` | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | `cpp` | 2026-10-15 | Array, Hash Table, Bit Manipulation |
+| `0350` | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | `cpp` | 2026-10-17 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
 <!-- LEETCODE_STATS_END -->
 
 ---
