@@ -71,29 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **6** |
-| 🟡 Medium  | **4** |
-| 🔴 Hard    | **2** |
-| ⚡ **Total** | **12** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
+| 🔴 Hard    | **0** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-17 20:47 UTC`
+> 🕐 Last synced: `2026-10-18 20:55 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0054` | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | `cpp` | 2026-10-16 | Array, Matrix, Simulation |
-| `0189` | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | `cpp` | 2026-10-17 | Array, Math, Two Pointers |
-| `0223` | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Geometry |
-| `0233` | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | `cpp` | 2026-10-17 | Math, Dynamic Programming, Recursion |
-| `0263` | [Ugly Number](https://leetcode.com/problems/ugly-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math |
-| `0350` | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | `cpp` | 2026-10-17 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
-| `0357` | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | `cpp` | 2026-10-17 | Math, Dynamic Programming, Backtracking |
-| `0461` | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | 🟢 Easy | `cpp` | 2026-10-17 | Bit Manipulation |
-| `0719` | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | 🔴 Hard | `cpp` | 2026-10-17 | Array, Two Pointers, Binary Search, Sorting |
-| `1395` | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | 🟢 Easy | `cpp` | 2026-10-16 | Array, Math, Geometry |
-| `1448` | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | `cpp` | 2026-10-17 | Math, Greedy |
-| `3859` | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | 🟢 Easy | `cpp` | 2026-10-17 | Math, Sorting |
+| `1355` | [Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/) | 🟡 Medium | `cpp` | 2026-10-18 | Array, Stack, Greedy |
 <!-- LEETCODE_STATS_END -->
 
 ---
