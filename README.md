@@ -71,18 +71,19 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
-> 🕐 Last synced: `2026-10-18 20:55 UTC`
+> 🕐 Last synced: `2026-10-18 20:56 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `1355` | [Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/) | 🟡 Medium | `cpp` | 2026-10-18 | Array, Stack, Greedy |
+| `4430` | [Minimum Deletions to Make Array Sharp](https://leetcode.com/problems/minimum-deletions-to-make-array-sharp/) | 🟢 Easy | `cpp` | 2026-10-18 | — |
 | `4456` | [Last Visited Cell in a Directional Grid](https://leetcode.com/problems/last-visited-cell-in-a-directional-grid/) | 🟡 Medium | `cpp` | 2026-10-18 | — |
 <!-- LEETCODE_STATS_END -->
 
