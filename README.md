@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **3** |
+| 🟡 Medium  | **4** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **6** |
+| ⚡ **Total** | **7** |
 
 > 🕐 Last synced: `2026-10-20 21:46 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `2283` | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | `cpp` | 2026-10-20 | Array, Sorting |
 | `3336` | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Simulation |
 | `4242` | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Math, Two Pointers, Sorting, Simulation, Number Theory |
+| `4297` | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Number Theory |
 <!-- LEETCODE_STATS_END -->
 
 ---
