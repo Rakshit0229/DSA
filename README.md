@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-10-20 21:46 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0658` | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Two Pointers, Binary Search, Sliding Window, Sorting, Heap (Priority Queue) |
 | `3336` | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Simulation |
 <!-- LEETCODE_STATS_END -->
 
