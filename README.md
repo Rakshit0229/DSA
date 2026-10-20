@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **3** |
-| 🟡 Medium  | **7** |
+| 🟡 Medium  | **8** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **10** |
+| ⚡ **Total** | **11** |
 
 > 🕐 Last synced: `2026-10-20 21:46 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0658` | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Two Pointers, Binary Search, Sliding Window, Sorting, Heap (Priority Queue) |
+| `1585` | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Number Theory, Prime Factorization |
 | `1683` | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Math, Greedy, Sorting, Game Theory |
 | `1693` | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | `cpp` | 2026-10-20 | Array, Math, Prefix Sum |
 | `1889` | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | `cpp` | 2026-10-20 | Math |
