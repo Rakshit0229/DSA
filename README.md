@@ -72,18 +72,17 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **2** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-19 22:31 UTC`
+> 🕐 Last synced: `2026-10-20 21:46 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0371` | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium | `cpp` | 2026-10-18 | Math, Bit Manipulation |
-| `0477` | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | `cpp` | 2026-10-19 | Array, Math, Bit Manipulation |
+| `3336` | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
