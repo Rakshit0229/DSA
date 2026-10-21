@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **4** |
+| 🟡 Medium  | **5** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **5** |
 
 > 🕐 Last synced: `2026-10-21 20:59 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `1988` | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Two Pointers, Greedy, Sorting |
 | `2271` | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Two Pointers, Simulation |
+| `2525` | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Hash Table, Math, Counting |
 | `2631` | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Sorting, Matrix |
 | `2676` | [Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Prefix Sum |
 <!-- LEETCODE_STATS_END -->
