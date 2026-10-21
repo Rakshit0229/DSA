@@ -71,29 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
-| 🟡 Medium  | **9** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **12** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-20 21:46 UTC`
+> 🕐 Last synced: `2026-10-21 20:59 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0658` | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Two Pointers, Binary Search, Sliding Window, Sorting, Heap (Priority Queue) |
-| `0968` | [Beautiful Array](https://leetcode.com/problems/beautiful-array/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Math, Divide and Conquer |
-| `1585` | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Number Theory, Prime Factorization |
-| `1683` | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Math, Greedy, Sorting, Game Theory |
-| `1693` | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | `cpp` | 2026-10-20 | Array, Math, Prefix Sum |
-| `1889` | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | `cpp` | 2026-10-20 | Math |
-| `2210` | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | `cpp` | 2026-10-20 | Array, Binary Search, Sorting |
-| `2283` | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | `cpp` | 2026-10-20 | Array, Sorting |
-| `3336` | [Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Simulation |
-| `4242` | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Math, Two Pointers, Sorting, Simulation, Number Theory |
-| `4280` | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟡 Medium | `cpp` | 2026-10-20 | Array, Math |
-| `4297` | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | `cpp` | 2026-10-20 | Math, Number Theory |
+| `2631` | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Sorting, Matrix |
 <!-- LEETCODE_STATS_END -->
 
 ---
