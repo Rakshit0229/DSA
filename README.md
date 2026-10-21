@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **5** |
+| 🟡 Medium  | **6** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
 > 🕐 Last synced: `2026-10-21 20:59 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0264` | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | `cpp` | 2026-10-21 | Hash Table, Math, Dynamic Programming, Heap (Priority Queue) |
 | `1988` | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Two Pointers, Greedy, Sorting |
 | `2271` | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Two Pointers, Simulation |
 | `2525` | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | `cpp` | 2026-10-21 | Array, Hash Table, Math, Counting |
