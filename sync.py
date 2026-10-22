@@ -69,16 +69,24 @@ def git_setup():
     if GH_PAT:
         remote = f"https://{GIT_NAME}:{GH_PAT}@github.com/{GH_REPO}.git"
         git(["remote", "set-url", "origin", remote])
+    # Abort any stuck rebase from a previous interrupted run
+    rebase_dir = Path(".git/rebase-merge")
+    if rebase_dir.exists():
+        print("  ⚠️  Stuck rebase detected — aborting it cleanly...")
+        git(["rebase", "--abort"])
+        print("  ✅  Rebase aborted. Continuing fresh.")
 
 def git_commit_and_push(message: str):
-    """Stage all changes, commit, pull --rebase, then push."""
+    """Stage all changes, commit, fetch+rebase, then push."""
     git(["add", "."])
     # Check if there's anything to commit
     status = git(["diff", "--staged", "--stat"])
     if not status:
         return False
     git(["commit", "-m", message])
-    git(["pull", "--rebase", "origin", "main"])
+    # Use fetch + rebase instead of pull --rebase to avoid interrupted-state issues
+    git(["fetch", "origin", "main"])
+    git(["rebase", "origin/main"])
     git(["push", "origin", "main"])
     return True
 
