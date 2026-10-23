@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-10-23 21:33 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0119` | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | `cpp` | 2026-10-23 | Array, Dynamic Programming |
 | `0343` | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | `cpp` | 2026-10-23 | Math, Dynamic Programming |
 <!-- LEETCODE_STATS_END -->
 
