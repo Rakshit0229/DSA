@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **1** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-10-23 21:33 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0119` | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | `cpp` | 2026-10-23 | Array, Dynamic Programming |
 | `0343` | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | `cpp` | 2026-10-23 | Math, Dynamic Programming |
+| `2324` | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | 🟡 Medium | `cpp` | 2026-10-23 | Array, Math, Simulation, Combinatorics, Number Theory |
 <!-- LEETCODE_STATS_END -->
 
 ---
