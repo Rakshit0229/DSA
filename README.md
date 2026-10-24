@@ -71,21 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
-| 🟡 Medium  | **3** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-23 21:33 UTC`
+> 🕐 Last synced: `2026-10-24 21:38 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0119` | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | 🟢 Easy | `cpp` | 2026-10-23 | Array, Dynamic Programming |
-| `0343` | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | `cpp` | 2026-10-23 | Math, Dynamic Programming |
-| `2324` | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | 🟡 Medium | `cpp` | 2026-10-23 | Array, Math, Simulation, Combinatorics, Number Theory |
-| `3950` | [Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | 🟡 Medium | `cpp` | 2026-10-23 | Array, Bit Manipulation |
+| `4391` | [Count Subarrays With Loose Bounds](https://leetcode.com/problems/count-subarrays-with-loose-bounds/) | 🟡 Medium | `cpp` | 2026-10-24 | — |
 <!-- LEETCODE_STATS_END -->
 
 ---
