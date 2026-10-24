@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
+| 🟢 Easy    | **2** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **5** |
 
-> 🕐 Last synced: `2026-10-24 21:38 UTC`
+> 🕐 Last synced: `2026-10-24 21:39 UTC`
 
 ## 📋 All Solutions
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0462` | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | `cpp` | 2026-10-24 | Array, Math, Sorting |
 | `2160` | [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | 🟡 Medium | `cpp` | 2026-10-24 | Array, Math, Sorting, Matrix |
+| `3476` | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | 🟢 Easy | `cpp` | 2026-10-24 | Array, Math |
 | `4391` | [Count Subarrays With Loose Bounds](https://leetcode.com/problems/count-subarrays-with-loose-bounds/) | 🟡 Medium | `cpp` | 2026-10-24 | — |
 | `4436` | [Difference Between Peaks and Valleys](https://leetcode.com/problems/difference-between-peaks-and-valleys/) | 🟢 Easy | `cpp` | 2026-10-24 | — |
 <!-- LEETCODE_STATS_END -->
