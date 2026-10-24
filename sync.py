@@ -23,8 +23,9 @@ USERNAME         = "Rakshit02"
 GRAPHQL_URL      = "https://leetcode.com/graphql"
 SUBMISSIONS_URL  = "https://leetcode.com/api/submissions/"
 
-LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION", "")
-CSRF_TOKEN       = os.environ.get("LEETCODE_CSRF_TOKEN", "")
+# .strip() removes stray spaces/newlines; .strip('"') removes accidental quotes
+LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION", "").strip().strip('"')
+CSRF_TOKEN       = os.environ.get("LEETCODE_CSRF_TOKEN", "").strip().strip('"')
 GH_PAT           = os.environ.get("GH_PAT", "")
 GH_REPO          = "Rakshit0229/DSA"
 GIT_NAME         = "Rakshit0229"
@@ -33,6 +34,12 @@ GIT_EMAIL        = "rakshit.25bcon2222@jecrcu.edu.in"
 if not LEETCODE_SESSION or not CSRF_TOKEN:
     print("❌  Missing secrets: LEETCODE_SESSION or LEETCODE_CSRF_TOKEN")
     sys.exit(1)
+
+# Guard against pasting "LEETCODE_SESSION=xxxx" instead of just the value
+if LEETCODE_SESSION.upper().startswith("LEETCODE_SESSION="):
+    LEETCODE_SESSION = LEETCODE_SESSION.split("=", 1)[1]
+if CSRF_TOKEN.lower().startswith("csrftoken="):
+    CSRF_TOKEN = CSRF_TOKEN.split("=", 1)[1]
 
 # ── Language maps ─────────────────────────────────────────────────────────────
 LANG_EXT = {
@@ -54,6 +61,15 @@ LANG_CMT = {
 }
 
 DIFF_EMOJI = {"Easy": "🟢", "Medium": "🟡", "Hard": "🔴"}
+
+AUTH_HELP = (
+    "    → Your LEETCODE_SESSION / LEETCODE_CSRF_TOKEN secrets are expired or invalid.\n"
+    "    → Log in to leetcode.com → DevTools → Application → Cookies,\n"
+    "      copy fresh values of LEETCODE_SESSION and csrftoken (value only),\n"
+    "      then update them in Repo → Settings → Secrets and variables → Actions.\n"
+    "    → If fresh cookies still fail, Cloudflare may be blocking GitHub runner IPs;\n"
+    "      run sync.py locally or on a self-hosted runner instead."
+)
 
 # ── Git helpers ───────────────────────────────────────────────────────────────
 def git(args: list[str]) -> str:
@@ -95,10 +111,19 @@ def _headers():
     return {
         "Cookie":       f"LEETCODE_SESSION={LEETCODE_SESSION}; csrftoken={CSRF_TOKEN}",
         "X-CSRFToken":  CSRF_TOKEN,
-        "Referer":      "https://leetcode.com",
+        "Referer":      "https://leetcode.com/submissions/",
+        "Origin":       "https://leetcode.com",
         "Content-Type": "application/json",
-        "User-Agent":   "Mozilla/5.0 (compatible; DSA-Sync-Bot/1.0)",
+        "User-Agent":   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
     }
+
+def _check_auth(r: requests.Response) -> None:
+    """Exit with a clear message if LeetCode rejects the session."""
+    if r.status_code in (401, 403):
+        print(f"\n❌  LeetCode rejected the session (HTTP {r.status_code}).")
+        print(AUTH_HELP)
+        sys.exit(1)
 
 def _gql(query: str, variables: dict = None) -> dict:
     r = requests.post(
@@ -106,6 +131,7 @@ def _gql(query: str, variables: dict = None) -> dict:
         json={"query": query, "variables": variables or {}},
         headers=_headers(), timeout=15,
     )
+    _check_auth(r)
     r.raise_for_status()
     return r.json().get("data", {})
 
@@ -129,6 +155,7 @@ def fetch_all_accepted() -> list:
             f"{SUBMISSIONS_URL}?offset={offset}&limit=20",
             headers=_headers(), timeout=15
         )
+        _check_auth(r)
         r.raise_for_status()
         data = r.json()
         accepted = [s for s in data.get("submissions_dump", [])
@@ -228,7 +255,7 @@ def update_readme(problems: list) -> None:
     if "<!-- LEETCODE_STATS_START -->" in content:
         content = re.sub(
             r"<!-- LEETCODE_STATS_START -->.*?<!-- LEETCODE_STATS_END -->",
-            block, content, flags=re.DOTALL,
+            lambda _: block, content, flags=re.DOTALL,
         )
     else:
         content += "\n\n" + block + "\n"
