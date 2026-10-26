@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **2** |
+| 🟢 Easy    | **3** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-10-26 22:48 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0026` | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | `cpp` | 2026-10-26 | Array, Two Pointers |
 | `0027` | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | `cpp` | 2026-10-26 | Array, Two Pointers |
 | `0283` | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | `cpp` | 2026-10-26 | Array, Two Pointers |
 <!-- LEETCODE_STATS_END -->
