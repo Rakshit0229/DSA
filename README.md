@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **6** |
-| 🟡 Medium  | **2** |
+| 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **8** |
+| ⚡ **Total** | **9** |
 
 > 🕐 Last synced: `2026-10-27 22:28 UTC`
 
@@ -87,6 +87,7 @@ LeetCode Account (Rakshit02)
 | `0665` | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | 🟡 Medium | `cpp` | 2026-10-27 | Array |
 | `1334` | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Dynamic Programming, Greedy, Enumeration |
 | `2298` | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | `cpp` | 2026-10-27 | Math, Simulation |
+| `2541` | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Enumeration |
 | `2798` | [Chunk Array](https://leetcode.com/problems/chunk-array/) | 🟢 Easy | `javascript` | 2026-10-27 | — |
 | `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
 | `3651` | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
