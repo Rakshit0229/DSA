@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **7** |
+| 🟢 Easy    | **8** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **10** |
+| ⚡ **Total** | **11** |
 
 > 🕐 Last synced: `2026-10-27 22:28 UTC`
 
@@ -92,6 +92,7 @@ LeetCode Account (Rakshit02)
 | `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
 | `3651` | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
 | `4299` | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
+| `4342` | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 Easy | `cpp` | 2026-10-27 | — |
 <!-- LEETCODE_STATS_END -->
 
 ---
