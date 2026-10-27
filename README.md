@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **6** |
+| 🟢 Easy    | **7** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **9** |
+| ⚡ **Total** | **10** |
 
 > 🕐 Last synced: `2026-10-27 22:28 UTC`
 
@@ -91,6 +91,7 @@ LeetCode Account (Rakshit02)
 | `2798` | [Chunk Array](https://leetcode.com/problems/chunk-array/) | 🟢 Easy | `javascript` | 2026-10-27 | — |
 | `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
 | `3651` | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
+| `4299` | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
