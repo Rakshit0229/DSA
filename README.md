@@ -71,18 +71,19 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **4** |
+| 🟢 Easy    | **5** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
-> 🕐 Last synced: `2026-10-27 22:27 UTC`
+> 🕐 Last synced: `2026-10-27 22:28 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0088` | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Two Pointers, Sorting |
+| `0561` | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Greedy, Sorting, Counting Sort |
 | `0665` | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | 🟡 Medium | `cpp` | 2026-10-27 | Array |
 | `2798` | [Chunk Array](https://leetcode.com/problems/chunk-array/) | 🟢 Easy | `javascript` | 2026-10-27 | — |
 | `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
