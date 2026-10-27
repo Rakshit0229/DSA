@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **6** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **7** |
+| ⚡ **Total** | **8** |
 
 > 🕐 Last synced: `2026-10-27 22:28 UTC`
 
@@ -85,6 +85,7 @@ LeetCode Account (Rakshit02)
 | `0088` | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Two Pointers, Sorting |
 | `0561` | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Greedy, Sorting, Counting Sort |
 | `0665` | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | 🟡 Medium | `cpp` | 2026-10-27 | Array |
+| `1334` | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Dynamic Programming, Greedy, Enumeration |
 | `2298` | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | `cpp` | 2026-10-27 | Math, Simulation |
 | `2798` | [Chunk Array](https://leetcode.com/problems/chunk-array/) | 🟢 Easy | `javascript` | 2026-10-27 | — |
 | `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
