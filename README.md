@@ -71,28 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **8** |
-| 🟡 Medium  | **3** |
+| 🟢 Easy    | **1** |
+| 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **11** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-27 22:28 UTC`
+> 🕐 Last synced: `2026-10-28 22:44 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0088` | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Two Pointers, Sorting |
-| `0561` | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Greedy, Sorting, Counting Sort |
-| `0665` | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | 🟡 Medium | `cpp` | 2026-10-27 | Array |
-| `1334` | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Dynamic Programming, Greedy, Enumeration |
-| `2298` | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | `cpp` | 2026-10-27 | Math, Simulation |
-| `2541` | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Enumeration |
-| `2798` | [Chunk Array](https://leetcode.com/problems/chunk-array/) | 🟢 Easy | `javascript` | 2026-10-27 | — |
-| `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
-| `3651` | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
-| `4299` | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
-| `4342` | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 Easy | `cpp` | 2026-10-27 | — |
+| `0485` | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | `cpp` | 2026-10-28 | Array |
 <!-- LEETCODE_STATS_END -->
 
 ---
