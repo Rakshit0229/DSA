@@ -124,58 +124,75 @@ def fetch_problem_details(slug: str) -> dict:
     return _gql(q, {"titleSlug": slug}).get("question", {})
 
 def fetch_all_accepted() -> list:
-    """Fetch all accepted submissions via GraphQL (avoids the blocked /api/submissions/ endpoint)."""
+    """Fetch accepted submissions via the profiling GraphQL query."""
     GQL_SUBMISSIONS = """
-    query submissionList($offset: Int!, $limit: Int!, $lastKey: String, $questionSlug: String, $lang: Int, $status: Int) {
-        submissionList(offset: $offset, limit: $limit, lastKey: $lastKey, questionSlug: $questionSlug, lang: $lang, status: $status) {
-            lastKey
-            hasNext
-            submissions {
-                id
-                statusDisplay
-                lang
-                runtime
-                timestamp
-                url
-                isPending
-                title
-                titleSlug
-                code: fullCode
-            }
+    query recentAcSubmissions($username: String!, $limit: Int!) {
+        recentAcSubmissionList(username: $username, limit: $limit) {
+            id
+            title
+            titleSlug
+            timestamp
+            lang
+            runtime
+            memory
         }
     }
     """
-    results, offset, last_key = [], 0, None
-    print("  Fetching submissions via GraphQL", end="", flush=True)
-    while True:
-        variables = {
-            "offset": offset,
-            "limit":  20,
-            "lastKey": last_key,
-            "status": 10,   # 10 = Accepted on LeetCode
+    # recentAcSubmissionList returns up to 20 items max without code
+    # We also fetch code per-problem via submissionDetail
+    GQL_DETAIL = """
+    query submissionDetails($submissionId: Int!) {
+        submissionDetails(submissionId: $submissionId) {
+            code
+            lang { name verboseName }
+            question { title titleSlug difficulty topicTags { name } questionId }
+            timestamp
+            statusDisplay: statusCode
         }
-        data = _gql(GQL_SUBMISSIONS, variables)
-        sub_list = data.get("submissionList", {})
-        subs = sub_list.get("submissions", [])
-        # filter to only Accepted in case status filter doesn't apply
-        accepted = [s for s in subs if s.get("statusDisplay") == "Accepted"]
-        results.extend(accepted)
+    }
+    """
+    print("  Fetching recent accepted submissions via GraphQL", end="", flush=True)
+    data = _gql(GQL_SUBMISSIONS, {"username": USERNAME, "limit": 20})
+    subs = data.get("recentAcSubmissionList", [])
+    print(f"  found {len(subs)}", flush=True)
+
+    results = []
+    for sub in subs:
+        sub_id = int(sub.get("id", 0))
+        detail_data = _gql(GQL_DETAIL, {"submissionId": sub_id})
+        detail = detail_data.get("submissionDetails", {})
+        if not detail:
+            continue
+        q = detail.get("question", {})
+        lang_obj = detail.get("lang", {})
+        lang_name = lang_obj.get("name", sub.get("lang", "python3"))
+        results.append({
+            "id":         sub_id,
+            "titleSlug":  sub.get("titleSlug", ""),
+            "title":      sub.get("title", ""),
+            "lang":       lang_name,
+            "timestamp":  sub.get("timestamp", "0"),
+            "code":       detail.get("code", ""),
+            "statusDisplay": "Accepted",
+            # enrich with question details
+            "_questionId": q.get("questionId", "0000"),
+            "_difficulty": q.get("difficulty", "Medium"),
+            "_tags":       [t["name"] for t in q.get("topicTags", [])],
+        })
         print(".", end="", flush=True)
-        if not sub_list.get("hasNext"):
-            break
-        last_key = sub_list.get("lastKey")
-        offset += 20
-        time.sleep(1.2)
-    print(f"  done ({len(results)} accepted)\n")
+        time.sleep(0.8)
+
+    print(f"\n  done ({len(results)} with code fetched)\n")
     return results
 
 # ── File writer ───────────────────────────────────────────────────────────────
 def write_solution(sub: dict, details: dict) -> tuple[bool, dict]:
     """Write solution file. Returns (is_new, meta)."""
-    q_id  = str(details.get("questionId", "0000")).zfill(4)
-    title = details.get("title", sub.get("title", "Unknown"))
+    # Support both pre-enriched subs and separate details dict
+    q_id  = str(sub.get("_questionId", details.get("questionId", "0000"))).zfill(4)
+    title = sub.get("title", details.get("title", "Unknown"))
     slug  = sub.get("titleSlug", sub.get("title_slug", "unknown"))
-    diff  = details.get("difficulty", "Medium")
+    diff  = sub.get("_difficulty", details.get("difficulty", "Medium"))
     lang  = sub.get("lang", "python3")
     code  = sub.get("code", "")
     ts    = datetime.fromtimestamp(
@@ -184,7 +201,9 @@ def write_solution(sub: dict, details: dict) -> tuple[bool, dict]:
 
     ext  = LANG_EXT.get(lang, "txt")
     cmt  = LANG_CMT.get(ext, "//")
-    tags = ", ".join(t["name"] for t in details.get("topicTags", []))
+    raw_tags = sub.get("_tags", details.get("topicTags", []))
+    tags = ", ".join(raw_tags) if raw_tags and isinstance(raw_tags[0], str) \
+           else ", ".join(t["name"] for t in raw_tags)
 
     folder   = Path(diff) / f"{q_id}-{slug}"
     folder.mkdir(parents=True, exist_ok=True)
@@ -288,10 +307,8 @@ def main():
             continue
         seen.add(slug)
 
-        details = fetch_problem_details(slug)
-        time.sleep(0.5)
-
-        is_new, meta = write_solution(sub, details)
+        # Details already embedded in sub by fetch_all_accepted
+        is_new, meta = write_solution(sub, {})
         all_problems.append(meta)
 
         if is_new:
