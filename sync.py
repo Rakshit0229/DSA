@@ -21,7 +21,6 @@ from datetime import datetime, timezone
 # ── Config ────────────────────────────────────────────────────────────────────
 USERNAME         = "Rakshit02"
 GRAPHQL_URL      = "https://leetcode.com/graphql"
-SUBMISSIONS_URL  = "https://leetcode.com/api/submissions/"
 
 LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION", "")
 CSRF_TOKEN       = os.environ.get("LEETCODE_CSRF_TOKEN", "")
@@ -95,9 +94,12 @@ def _headers():
     return {
         "Cookie":       f"LEETCODE_SESSION={LEETCODE_SESSION}; csrftoken={CSRF_TOKEN}",
         "X-CSRFToken":  CSRF_TOKEN,
-        "Referer":      "https://leetcode.com",
+        "Referer":      "https://leetcode.com/problemset/",
+        "Origin":       "https://leetcode.com",
         "Content-Type": "application/json",
-        "User-Agent":   "Mozilla/5.0 (compatible; DSA-Sync-Bot/1.0)",
+        "User-Agent":   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept":       "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.9",
     }
 
 def _gql(query: str, variables: dict = None) -> dict:
@@ -122,21 +124,46 @@ def fetch_problem_details(slug: str) -> dict:
     return _gql(q, {"titleSlug": slug}).get("question", {})
 
 def fetch_all_accepted() -> list:
-    results, offset = [], 0
-    print("  Fetching submissions", end="", flush=True)
+    """Fetch all accepted submissions via GraphQL (avoids the blocked /api/submissions/ endpoint)."""
+    GQL_SUBMISSIONS = """
+    query submissionList($offset: Int!, $limit: Int!, $lastKey: String, $questionSlug: String, $lang: Int, $status: Int) {
+        submissionList(offset: $offset, limit: $limit, lastKey: $lastKey, questionSlug: $questionSlug, lang: $lang, status: $status) {
+            lastKey
+            hasNext
+            submissions {
+                id
+                statusDisplay
+                lang
+                runtime
+                timestamp
+                url
+                isPending
+                title
+                titleSlug
+                code: fullCode
+            }
+        }
+    }
+    """
+    results, offset, last_key = [], 0, None
+    print("  Fetching submissions via GraphQL", end="", flush=True)
     while True:
-        r = requests.get(
-            f"{SUBMISSIONS_URL}?offset={offset}&limit=20",
-            headers=_headers(), timeout=15
-        )
-        r.raise_for_status()
-        data = r.json()
-        accepted = [s for s in data.get("submissions_dump", [])
-                    if s.get("status_display") == "Accepted"]
+        variables = {
+            "offset": offset,
+            "limit":  20,
+            "lastKey": last_key,
+            "status": 10,   # 10 = Accepted on LeetCode
+        }
+        data = _gql(GQL_SUBMISSIONS, variables)
+        sub_list = data.get("submissionList", {})
+        subs = sub_list.get("submissions", [])
+        # filter to only Accepted in case status filter doesn't apply
+        accepted = [s for s in subs if s.get("statusDisplay") == "Accepted"]
         results.extend(accepted)
         print(".", end="", flush=True)
-        if not data.get("has_next"):
+        if not sub_list.get("hasNext"):
             break
+        last_key = sub_list.get("lastKey")
         offset += 20
         time.sleep(1.2)
     print(f"  done ({len(results)} accepted)\n")
@@ -147,7 +174,7 @@ def write_solution(sub: dict, details: dict) -> tuple[bool, dict]:
     """Write solution file. Returns (is_new, meta)."""
     q_id  = str(details.get("questionId", "0000")).zfill(4)
     title = details.get("title", sub.get("title", "Unknown"))
-    slug  = sub.get("title_slug", "unknown")
+    slug  = sub.get("titleSlug", sub.get("title_slug", "unknown"))
     diff  = details.get("difficulty", "Medium")
     lang  = sub.get("lang", "python3")
     code  = sub.get("code", "")
@@ -256,7 +283,7 @@ def main():
     new_count = 0
 
     for sub in submissions:
-        slug = sub.get("title_slug", "")
+        slug = sub.get("titleSlug", sub.get("title_slug", ""))
         if not slug or slug in seen:
             continue
         seen.add(slug)
