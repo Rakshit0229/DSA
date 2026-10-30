@@ -71,24 +71,37 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **7** |
-| 🟡 Medium  | **0** |
+| 🟢 Easy    | **17** |
+| 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **7** |
+| ⚡ **Total** | **20** |
 
-> 🕐 Last synced: `2026-10-30 01:26 UTC`
+> 🕐 Last synced: `2026-10-30 22:32 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0088` | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Two Pointers, Sorting |
+| `0283` | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | `cpp` | 2026-10-26 | Array, Two Pointers |
+| `0485` | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | `cpp` | 2026-10-28 | Array |
+| `0561` | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Greedy, Sorting, Counting Sort |
+| `0665` | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | 🟡 Medium | `cpp` | 2026-10-27 | Array |
+| `1334` | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Dynamic Programming, Greedy, Enumeration |
 | `2132` | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Matrix, Simulation |
+| `2298` | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | `cpp` | 2026-10-27 | Math, Simulation |
 | `2308` | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Bit Manipulation, Counting |
+| `2541` | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | `cpp` | 2026-10-27 | Math, Enumeration |
+| `2798` | [Chunk Array](https://leetcode.com/problems/chunk-array/) | 🟢 Easy | `javascript` | 2026-10-27 | — |
 | `2892` | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Sorting |
-| `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Counting |
+| `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-30 | Array, Hash Table, Counting |
 | `3429` | [Special Array I](https://leetcode.com/problems/special-array-i/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
+| `3515` | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Math |
+| `3651` | [Transformed Array](https://leetcode.com/problems/transformed-array/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
 | `3778` | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Sorting, Counting |
 | `4290` | [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
+| `4299` | [Concatenate Array With Reverse](https://leetcode.com/problems/concatenate-array-with-reverse/) | 🟢 Easy | `cpp` | 2026-10-27 | Array, Simulation |
+| `4342` | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 Easy | `cpp` | 2026-10-27 | — |
 <!-- LEETCODE_STATS_END -->
 
 ---
