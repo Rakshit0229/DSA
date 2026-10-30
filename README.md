@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **2** |
+| 🟢 Easy    | **3** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-10-30 01:25 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `2132` | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Matrix, Simulation |
 | `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Counting |
 | `3429` | [Special Array I](https://leetcode.com/problems/special-array-i/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
 <!-- LEETCODE_STATS_END -->
