@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
+| 🟢 Easy    | **2** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-10-30 01:25 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Counting |
+| `3429` | [Special Array I](https://leetcode.com/problems/special-array-i/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
 <!-- LEETCODE_STATS_END -->
 
 ---
