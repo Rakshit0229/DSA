@@ -76,13 +76,13 @@ LeetCode Account (Rakshit02)
 | 🔴 Hard    | **0** |
 | ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-28 22:44 UTC`
+> 🕐 Last synced: `2026-10-30 01:25 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0485` | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | `cpp` | 2026-10-28 | Array |
+| `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Counting |
 <!-- LEETCODE_STATS_END -->
 
 ---
