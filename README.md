@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **6** |
+| 🟢 Easy    | **7** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **6** |
+| ⚡ **Total** | **7** |
 
 > 🕐 Last synced: `2026-10-30 01:26 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Counting |
 | `3429` | [Special Array I](https://leetcode.com/problems/special-array-i/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
 | `3778` | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Sorting, Counting |
+| `4290` | [Valid Elements in an Array](https://leetcode.com/problems/valid-elements-in-an-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
 <!-- LEETCODE_STATS_END -->
 
 ---
