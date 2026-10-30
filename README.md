@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **5** |
+| 🟢 Easy    | **6** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
 > 🕐 Last synced: `2026-10-30 01:26 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `2132` | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Matrix, Simulation |
 | `2308` | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Bit Manipulation, Counting |
+| `2892` | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Sorting |
 | `3324` | [Split the Array](https://leetcode.com/problems/split-the-array/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Hash Table, Counting |
 | `3429` | [Special Array I](https://leetcode.com/problems/special-array-i/) | 🟢 Easy | `cpp` | 2026-10-29 | Array |
 | `3778` | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | `cpp` | 2026-10-29 | Array, Sorting, Counting |
