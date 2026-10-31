@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
+| 🟢 Easy    | **4** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **5** |
 
 > 🕐 Last synced: `2026-10-31 21:46 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `2083` | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | `cpp` | 2026-10-31 | Math, Enumeration, Number Theory, Prime Factorization, Sieve Theory |
 | `2556` | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | `cpp` | 2026-10-31 | Math |
 | `2575` | [Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/) | 🟢 Easy | `cpp` | 2026-10-31 | Math, Geometry |
 | `2649` | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | 🟡 Medium | `cpp` | 2026-10-31 | Math |
