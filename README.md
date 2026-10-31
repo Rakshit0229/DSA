@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **1** |
-| 🟡 Medium  | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-10-31 21:46 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `2649` | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | 🟡 Medium | `cpp` | 2026-10-31 | Math |
 | `2679` | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | 🟢 Easy | `cpp` | 2026-10-31 | Array, Hash Table, Math, Simulation |
 <!-- LEETCODE_STATS_END -->
 
