@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
+| 🟢 Easy    | **2** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-11-01 22:14 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `1064` | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | `cpp` | 2026-11-01 | Hash Table, Math, Pigeonhole Principle |
+| `2243` | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | 🟢 Easy | `cpp` | 2026-11-01 | String |
 | `4448` | [Minimum Value of Merged Integers](https://leetcode.com/problems/minimum-value-of-merged-integers/) | 🟢 Easy | `cpp` | 2026-11-01 | — |
 <!-- LEETCODE_STATS_END -->
 
