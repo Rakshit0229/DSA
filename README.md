@@ -71,25 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **6** |
-| 🟡 Medium  | **2** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **8** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-10-31 21:46 UTC`
+> 🕐 Last synced: `2026-11-01 22:14 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `2083` | [Three Divisors](https://leetcode.com/problems/three-divisors/) | 🟢 Easy | `cpp` | 2026-10-31 | Math, Enumeration, Number Theory, Prime Factorization, Sieve Theory |
-| `2106` | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | `cpp` | 2026-10-31 | Array, Math, Number Theory, Euclidean Algorithm, Greatest Common Divisor |
-| `2491` | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | `cpp` | 2026-10-31 | Math, Number Theory |
-| `2556` | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | `cpp` | 2026-10-31 | Math |
-| `2575` | [Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/) | 🟢 Easy | `cpp` | 2026-10-31 | Math, Geometry |
-| `2649` | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | 🟡 Medium | `cpp` | 2026-10-31 | Math |
-| `2679` | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | 🟢 Easy | `cpp` | 2026-10-31 | Array, Hash Table, Math, Simulation |
-| `3738` | [Make Array Non-decreasing](https://leetcode.com/problems/make-array-non-decreasing/) | 🟡 Medium | `cpp` | 2026-10-31 | Array, Stack, Greedy, Monotonic Stack |
+| `1064` | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | `cpp` | 2026-11-01 | Hash Table, Math, Pigeonhole Principle |
 <!-- LEETCODE_STATS_END -->
 
 ---
