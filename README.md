@@ -71,25 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **8** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **8** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-03 01:07 UTC`
+> 🕐 Last synced: `2026-11-03 23:32 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `1993` | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Math, Backtracking, Bit Manipulation, Combinatorics, Enumeration |
-| `2561` | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Hash Table, Two Pointers, Sorting |
-| `2812` | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
-| `3172` | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
-| `3471` | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Two Pointers, Sorting |
-| `3846` | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Math |
-| `4168` | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
-| `4321` | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | `cpp` | 2026-11-02 | Hash Table, Math |
+| `2639` | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
