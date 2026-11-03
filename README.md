@@ -71,21 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
-| 🟡 Medium  | **1** |
+| 🟢 Easy    | **1** |
+| 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-01 22:14 UTC`
+> 🕐 Last synced: `2026-11-03 01:07 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `1064` | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | `cpp` | 2026-11-01 | Hash Table, Math, Pigeonhole Principle |
-| `1878` | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | 🟢 Easy | `cpp` | 2026-11-01 | Array |
-| `2243` | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | 🟢 Easy | `cpp` | 2026-11-01 | String |
-| `4448` | [Minimum Value of Merged Integers](https://leetcode.com/problems/minimum-value-of-merged-integers/) | 🟢 Easy | `cpp` | 2026-11-01 | — |
+| `1993` | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Math, Backtracking, Bit Manipulation, Combinatorics, Enumeration |
 <!-- LEETCODE_STATS_END -->
 
 ---
