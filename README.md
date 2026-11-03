@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
+| 🟢 Easy    | **4** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **3** |
+| ⚡ **Total** | **4** |
 
 > 🕐 Last synced: `2026-11-03 01:07 UTC`
 
@@ -85,6 +85,7 @@ LeetCode Account (Rakshit02)
 | `1993` | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Math, Backtracking, Bit Manipulation, Combinatorics, Enumeration |
 | `2812` | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
 | `3172` | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
+| `3471` | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Two Pointers, Sorting |
 <!-- LEETCODE_STATS_END -->
 
 ---
