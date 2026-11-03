@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **7** |
+| 🟢 Easy    | **8** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **7** |
+| ⚡ **Total** | **8** |
 
 > 🕐 Last synced: `2026-11-03 01:07 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `3172` | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
 | `3471` | [Minimum Average of Smallest and Largest Elements](https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Two Pointers, Sorting |
 | `3846` | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | `cpp` | 2026-11-02 | Array, Math |
+| `4168` | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | `cpp` | 2026-11-02 | Math |
 | `4321` | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | `cpp` | 2026-11-02 | Hash Table, Math |
 <!-- LEETCODE_STATS_END -->
 
