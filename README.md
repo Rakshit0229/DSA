@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **5** |
+| 🟢 Easy    | **6** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **6** |
+| ⚡ **Total** | **7** |
 
 > 🕐 Last synced: `2026-11-03 23:32 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `2277` | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array |
 | `2387` | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | 🟡 Medium | `cpp` | 2026-11-03 | Array, Greedy, Sorting |
 | `2639` | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
+| `4295` | [Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | 🟢 Easy | `cpp` | 2026-11-03 | Array |
 <!-- LEETCODE_STATS_END -->
 
 ---
