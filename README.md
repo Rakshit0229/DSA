@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **4** |
+| 🟢 Easy    | **5** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
 > 🕐 Last synced: `2026-11-03 23:32 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `2042` | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Sorting, Quicksort |
+| `2058` | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
 | `2116` | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Hash Table, Counting |
 | `2277` | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array |
 | `2387` | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | 🟡 Medium | `cpp` | 2026-11-03 | Array, Greedy, Sorting |
