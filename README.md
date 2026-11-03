@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **11** |
+| 🟢 Easy    | **12** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **14** |
+| ⚡ **Total** | **15** |
 
 > 🕐 Last synced: `2026-11-03 23:32 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0982` | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | `cpp` | 2026-11-03 | Array, Greedy, Sorting, Counting |
+| `1001` | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Hash Table, Pigeonhole Principle |
 | `1505` | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
 | `1528` | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | `cpp` | 2026-11-03 | Array |
 | `1802` | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Stack, Queue, Simulation |
