@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **6** |
+| 🟢 Easy    | **7** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **7** |
+| ⚡ **Total** | **8** |
 
 > 🕐 Last synced: `2026-11-03 23:32 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `1899` | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, String |
 | `2042` | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Sorting, Quicksort |
 | `2058` | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
 | `2116` | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Hash Table, Counting |
