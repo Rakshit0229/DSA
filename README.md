@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **8** |
+| 🟢 Easy    | **9** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **11** |
+| ⚡ **Total** | **12** |
 
 > 🕐 Last synced: `2026-11-03 23:32 UTC`
 
@@ -86,6 +86,7 @@ LeetCode Account (Rakshit02)
 | `1802` | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Stack, Queue, Simulation |
 | `1895` | [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | 🟡 Medium | `cpp` | 2026-11-03 | Array, String, Prefix Sum |
 | `1899` | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, String |
+| `1938` | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Greedy |
 | `2042` | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Sorting, Quicksort |
 | `2058` | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
 | `2116` | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Hash Table, Counting |
