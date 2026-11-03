@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **2** |
+| 🟢 Easy    | **3** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-11-03 23:32 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `2116` | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Hash Table, Counting |
+| `2277` | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array |
 | `2639` | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | 🟢 Easy | `cpp` | 2026-11-03 | Array, Simulation |
 <!-- LEETCODE_STATS_END -->
 
