@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
+| 🟢 Easy    | **2** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-11-06 23:21 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0055` | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | `cpp` | 2026-11-06 | Array, Dynamic Programming, Greedy |
 | `1256` | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 🟢 Easy | `cpp` | 2026-11-06 | Array, Hash Table, Sorting |
+| `2048` | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | `cpp` | 2026-11-06 | Array, Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
