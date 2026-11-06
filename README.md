@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **2** |
+| 🟢 Easy    | **3** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **3** |
+| ⚡ **Total** | **4** |
 
 > 🕐 Last synced: `2026-11-06 23:21 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0055` | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | `cpp` | 2026-11-06 | Array, Dynamic Programming, Greedy |
+| `0344` | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Easy | `cpp` | 2026-11-06 | Two Pointers, String |
 | `1256` | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 🟢 Easy | `cpp` | 2026-11-06 | Array, Hash Table, Sorting |
 | `2048` | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | `cpp` | 2026-11-06 | Array, Simulation |
 <!-- LEETCODE_STATS_END -->
