@@ -71,37 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **18** |
-| 🟡 Medium  | **2** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **20** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-10 13:54 UTC`
+> 🕐 Last synced: `2026-11-10 23:37 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0048` | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | `cpp` | 2026-11-09 | Array, Math, Matrix |
-| `1511` | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | 🟡 Medium | `cpp` | 2026-11-08 | Array, Dynamic Programming, Binary Indexed Tree, Segment Tree |
-| `2015` | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Matrix |
-| `2365` | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | `cpp` | 2026-11-09 | String |
-| `2608` | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
-| `2624` | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math |
-| `2692` | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Heap (Priority Queue), Simulation |
-| `2714` | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Prefix Sum |
-| `2727` | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
-| `2748` | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
-| `2917` | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Binary Search, Sorting |
-| `3194` | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
-| `3206` | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Hash Table |
-| `3221` | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Enumeration |
-| `3226` | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Sorting, Heap (Priority Queue), Simulation |
-| `3242` | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Hash Table, Counting |
-| `3321` | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math, Sorting, Polygons |
-| `3347` | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Simulation |
-| `3397` | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | `cpp` | 2026-11-09 | Array |
-| `3606` | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math |
+| `3171` | [Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) | 🟡 Medium | `cpp` | 2026-11-10 | Array, Greedy |
 <!-- LEETCODE_STATS_END -->
 
 ---
