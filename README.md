@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **11** |
+| 🟢 Easy    | **12** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **12** |
+| ⚡ **Total** | **13** |
 
 > 🕐 Last synced: `2026-11-10 13:53 UTC`
 
@@ -86,6 +86,7 @@ LeetCode Account (Rakshit02)
 | `2015` | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Matrix |
 | `2365` | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | `cpp` | 2026-11-09 | String |
 | `2608` | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
+| `2727` | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
 | `2748` | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
 | `2917` | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Binary Search, Sorting |
 | `3194` | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
