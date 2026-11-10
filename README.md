@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **18** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **19** |
+| ⚡ **Total** | **20** |
 
 > 🕐 Last synced: `2026-11-10 13:54 UTC`
 
@@ -83,6 +83,7 @@ LeetCode Account (Rakshit02)
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0048` | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | `cpp` | 2026-11-09 | Array, Math, Matrix |
+| `1511` | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | 🟡 Medium | `cpp` | 2026-11-08 | Array, Dynamic Programming, Binary Indexed Tree, Segment Tree |
 | `2015` | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Matrix |
 | `2365` | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | `cpp` | 2026-11-09 | String |
 | `2608` | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
