@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **16** |
+| 🟢 Easy    | **17** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **17** |
+| ⚡ **Total** | **18** |
 
 > 🕐 Last synced: `2026-11-10 13:54 UTC`
 
@@ -99,6 +99,7 @@ LeetCode Account (Rakshit02)
 | `3242` | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Hash Table, Counting |
 | `3321` | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math, Sorting, Polygons |
 | `3347` | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Simulation |
+| `3397` | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | `cpp` | 2026-11-09 | Array |
 <!-- LEETCODE_STATS_END -->
 
 ---
