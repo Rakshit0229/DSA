@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **15** |
+| 🟢 Easy    | **16** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **16** |
+| ⚡ **Total** | **17** |
 
 > 🕐 Last synced: `2026-11-10 13:54 UTC`
 
@@ -98,6 +98,7 @@ LeetCode Account (Rakshit02)
 | `3226` | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Sorting, Heap (Priority Queue), Simulation |
 | `3242` | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Hash Table, Counting |
 | `3321` | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math, Sorting, Polygons |
+| `3347` | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
