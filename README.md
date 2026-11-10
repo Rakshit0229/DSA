@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
+| 🟢 Easy    | **2** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **3** |
 
 > 🕐 Last synced: `2026-11-10 13:53 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0048` | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | `cpp` | 2026-11-09 | Array, Math, Matrix |
 | `2015` | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Matrix |
+| `3226` | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Sorting, Heap (Priority Queue), Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
