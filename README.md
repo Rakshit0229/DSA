@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **8** |
+| 🟢 Easy    | **9** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **9** |
+| ⚡ **Total** | **10** |
 
 > 🕐 Last synced: `2026-11-10 13:53 UTC`
 
@@ -91,6 +91,7 @@ LeetCode Account (Rakshit02)
 | `3194` | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
 | `3221` | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Enumeration |
 | `3226` | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Sorting, Heap (Priority Queue), Simulation |
+| `3321` | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math, Sorting, Polygons |
 <!-- LEETCODE_STATS_END -->
 
 ---
