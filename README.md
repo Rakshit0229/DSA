@@ -71,12 +71,12 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **14** |
+| 🟢 Easy    | **15** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **15** |
+| ⚡ **Total** | **16** |
 
-> 🕐 Last synced: `2026-11-10 13:53 UTC`
+> 🕐 Last synced: `2026-11-10 13:54 UTC`
 
 ## 📋 All Solutions
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `2608` | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
 | `2624` | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math |
 | `2692` | [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Heap (Priority Queue), Simulation |
+| `2714` | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Prefix Sum |
 | `2727` | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
 | `2748` | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
 | `2917` | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Binary Search, Sorting |
