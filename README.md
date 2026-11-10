@@ -71,22 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **3** |
-| 🟡 Medium  | **2** |
+| 🟢 Easy    | **1** |
+| 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-06 23:21 UTC`
+> 🕐 Last synced: `2026-11-10 13:53 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0055` | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | `cpp` | 2026-11-06 | Array, Dynamic Programming, Greedy |
-| `0120` | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 Medium | `cpp` | 2026-11-06 | Array, Dynamic Programming |
-| `0344` | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Easy | `cpp` | 2026-11-06 | Two Pointers, String |
-| `1256` | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | 🟢 Easy | `cpp` | 2026-11-06 | Array, Hash Table, Sorting |
-| `2048` | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | `cpp` | 2026-11-06 | Array, Simulation |
+| `2015` | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Matrix |
 <!-- LEETCODE_STATS_END -->
 
 ---
