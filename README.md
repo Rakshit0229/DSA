@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **7** |
+| 🟢 Easy    | **8** |
 | 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **8** |
+| ⚡ **Total** | **9** |
 
 > 🕐 Last synced: `2026-11-10 13:53 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `2608` | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
 | `2748` | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
 | `2917` | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Binary Search, Sorting |
+| `3194` | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
 | `3221` | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Enumeration |
 | `3226` | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Sorting, Heap (Priority Queue), Simulation |
 <!-- LEETCODE_STATS_END -->
