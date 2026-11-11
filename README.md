@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **2** |
-| 🟡 Medium  | **3** |
+| 🟡 Medium  | **4** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **5** |
+| ⚡ **Total** | **6** |
 
 > 🕐 Last synced: `2026-11-11 19:38 UTC`
 
@@ -87,6 +87,7 @@ LeetCode Account (Rakshit02)
 | `1488` | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | `cpp` | 2026-11-11 | Dynamic Programming, Memoization, Sorting |
 | `1807` | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | 🟡 Medium | `cpp` | 2026-11-11 | String, Greedy |
 | `2470` | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium | `cpp` | 2026-11-11 | String, Stack, Simulation |
+| `4363` | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 🟡 Medium | `cpp` | 2026-11-11 | Array, Two Pointers, Greedy, Sorting |
 <!-- LEETCODE_STATS_END -->
 
 ---
