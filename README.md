@@ -71,19 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
-| 🟡 Medium  | **2** |
+| 🟢 Easy    | **1** |
+| 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-10 23:37 UTC`
+> 🕐 Last synced: `2026-11-11 19:38 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `1951` | [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | 🟡 Medium | `cpp` | 2026-11-10 | Array, Math, Recursion, Queue, Simulation |
-| `3171` | [Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) | 🟡 Medium | `cpp` | 2026-11-10 | Array, Greedy |
+| `1128` | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 Easy | `cpp` | 2026-11-11 | String, Stack |
 <!-- LEETCODE_STATS_END -->
 
 ---
