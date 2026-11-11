@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
+| 🟢 Easy    | **2** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-11-11 19:38 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0874` | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | 🟢 Easy | `cpp` | 2026-11-11 | Two Pointers, String, Stack, Simulation |
 | `1128` | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 Easy | `cpp` | 2026-11-11 | String, Stack |
 <!-- LEETCODE_STATS_END -->
 
