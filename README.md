@@ -71,10 +71,10 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **3** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **3** |
+| ⚡ **Total** | **4** |
 
 > 🕐 Last synced: `2026-11-12 23:44 UTC`
 
@@ -84,6 +84,7 @@ LeetCode Account (Rakshit02)
 |---|---------|:----------:|:--------:|:---------:|--------|
 | `0164` | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Sorting, Bucket Sort, Radix Sort, Pigeonhole Principle |
 | `0532` | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
+| `3372` | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 Easy | `cpp` | 2026-11-12 | Array |
 | `4087` | [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | 🟡 Medium | `cpp` | 2026-11-12 | Hash Table, String |
 <!-- LEETCODE_STATS_END -->
 
