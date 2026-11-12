@@ -72,16 +72,17 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **1** |
+| 🟡 Medium  | **2** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| ⚡ **Total** | **2** |
 
-> 🕐 Last synced: `2026-11-12 23:43 UTC`
+> 🕐 Last synced: `2026-11-12 23:44 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0164` | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Sorting, Bucket Sort, Radix Sort, Pigeonhole Principle |
 | `0532` | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
 <!-- LEETCODE_STATS_END -->
 
