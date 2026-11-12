@@ -71,37 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **12** |
-| 🟡 Medium  | **8** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **20** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-12 00:53 UTC`
+> 🕐 Last synced: `2026-11-12 23:43 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0048` | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | `cpp` | 2026-11-09 | Array, Math, Matrix |
-| `0344` | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Easy | `cpp` | 2026-11-10 | Two Pointers, String |
-| `0874` | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | 🟢 Easy | `cpp` | 2026-11-11 | Two Pointers, String, Stack, Simulation |
-| `1128` | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 Easy | `cpp` | 2026-11-11 | String, Stack |
-| `1488` | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | `cpp` | 2026-11-11 | Dynamic Programming, Memoization, Sorting |
-| `1807` | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | 🟡 Medium | `cpp` | 2026-11-11 | String, Greedy |
-| `1951` | [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | 🟡 Medium | `cpp` | 2026-11-10 | Array, Math, Recursion, Queue, Simulation |
-| `2015` | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Matrix |
-| `2365` | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | `cpp` | 2026-11-09 | String |
-| `2470` | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium | `cpp` | 2026-11-11 | String, Stack, Simulation |
-| `2608` | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
-| `2748` | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | 🟢 Easy | `cpp` | 2026-11-09 | Math |
-| `2917` | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Two Pointers, Binary Search, Sorting |
-| `3171` | [Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) | 🟡 Medium | `cpp` | 2026-11-11 | Array, Greedy |
-| `3194` | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, String |
-| `3221` | [Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Enumeration |
-| `3226` | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Sorting, Heap (Priority Queue), Simulation |
-| `3241` | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | `cpp` | 2026-11-11 | Array, Greedy, Sorting |
-| `3321` | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | 🟢 Easy | `cpp` | 2026-11-09 | Array, Math, Sorting, Polygons |
-| `4363` | [Minimum Total Price After Applying Discounts](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) | 🟡 Medium | `cpp` | 2026-11-11 | Array, Two Pointers, Greedy, Sorting |
+| `0532` | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
 <!-- LEETCODE_STATS_END -->
 
 ---
