@@ -71,21 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
-| 🟡 Medium  | **3** |
+| 🟢 Easy    | **0** |
+| 🟡 Medium  | **1** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **4** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-12 23:44 UTC`
+> 🕐 Last synced: `2026-11-13 23:45 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0164` | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Sorting, Bucket Sort, Radix Sort, Pigeonhole Principle |
-| `0532` | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
-| `3372` | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 Easy | `cpp` | 2026-11-12 | Array |
-| `4087` | [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | 🟡 Medium | `cpp` | 2026-11-12 | Hash Table, String |
+| `0917` | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers, Greedy, Sorting, Timsort |
 <!-- LEETCODE_STATS_END -->
 
 ---
