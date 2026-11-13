@@ -73,8 +73,8 @@ LeetCode Account (Rakshit02)
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
 | 🟡 Medium  | **1** |
-| 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| 🔴 Hard    | **1** |
+| ⚡ **Total** | **2** |
 
 > 🕐 Last synced: `2026-11-13 23:45 UTC`
 
@@ -82,6 +82,7 @@ LeetCode Account (Rakshit02)
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
+| `0458` | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) | 🔴 Hard | `cpp` | 2026-11-13 | Math, Dynamic Programming, Combinatorics |
 | `0917` | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers, Greedy, Sorting, Timsort |
 <!-- LEETCODE_STATS_END -->
 
