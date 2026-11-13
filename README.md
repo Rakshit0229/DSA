@@ -72,9 +72,9 @@ LeetCode Account (Rakshit02)
 | Difficulty | Solved |
 |:----------:|:------:|
 | 🟢 Easy    | **0** |
-| 🟡 Medium  | **7** |
+| 🟡 Medium  | **8** |
 | 🔴 Hard    | **1** |
-| ⚡ **Total** | **8** |
+| ⚡ **Total** | **9** |
 
 > 🕐 Last synced: `2026-11-13 23:45 UTC`
 
@@ -88,6 +88,7 @@ LeetCode Account (Rakshit02)
 | `0900` | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | 🟡 Medium | `cpp` | 2026-11-13 | Hash Table, Math, Sorting, Counting, Enumeration |
 | `0917` | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers, Greedy, Sorting, Timsort |
 | `1033` | [Broken Calculator](https://leetcode.com/problems/broken-calculator/) | 🟡 Medium | `cpp` | 2026-11-13 | Math, Greedy |
+| `1879` | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | `cpp` | 2026-11-13 | Math, Greedy, Heap (Priority Queue) |
 | `1956` | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy, Sorting |
 | `2212` | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy |
 <!-- LEETCODE_STATS_END -->
