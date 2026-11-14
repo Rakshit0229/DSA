@@ -71,26 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **0** |
-| 🟡 Medium  | **8** |
-| 🔴 Hard    | **1** |
-| ⚡ **Total** | **9** |
+| 🟢 Easy    | **1** |
+| 🟡 Medium  | **0** |
+| 🔴 Hard    | **0** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-13 23:45 UTC`
+> 🕐 Last synced: `2026-11-14 22:38 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `0031` | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers |
-| `0122` | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Dynamic Programming, Greedy |
-| `0458` | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) | 🔴 Hard | `cpp` | 2026-11-13 | Math, Dynamic Programming, Combinatorics |
-| `0900` | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | 🟡 Medium | `cpp` | 2026-11-13 | Hash Table, Math, Sorting, Counting, Enumeration |
-| `0917` | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers, Greedy, Sorting, Timsort |
-| `1033` | [Broken Calculator](https://leetcode.com/problems/broken-calculator/) | 🟡 Medium | `cpp` | 2026-11-13 | Math, Greedy |
-| `1879` | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | `cpp` | 2026-11-13 | Math, Greedy, Heap (Priority Queue) |
-| `1956` | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy, Sorting |
-| `2212` | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy |
+| `2566` | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | 🟢 Easy | `cpp` | 2026-11-14 | Array, Hash Table, Sorting |
 <!-- LEETCODE_STATS_END -->
 
 ---
