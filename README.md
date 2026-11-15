@@ -71,19 +71,18 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **2** |
+| 🟢 Easy    | **1** |
 | 🟡 Medium  | **0** |
 | 🔴 Hard    | **0** |
-| ⚡ **Total** | **2** |
+| ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-14 22:38 UTC`
+> 🕐 Last synced: `2026-11-15 23:01 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `1018` | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 Easy | `cpp` | 2026-11-14 | Array, Math, Greedy, Sorting, Quicksort, Polygons |
-| `2566` | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | 🟢 Easy | `cpp` | 2026-11-14 | Array, Hash Table, Sorting |
+| `2037` | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | `cpp` | 2026-11-15 | Math, Enumeration |
 <!-- LEETCODE_STATS_END -->
 
 ---
