@@ -76,13 +76,13 @@ LeetCode Account (Rakshit02)
 | 🔴 Hard    | **0** |
 | ⚡ **Total** | **1** |
 
-> 🕐 Last synced: `2026-11-15 23:01 UTC`
+> 🕐 Last synced: `2026-11-17 01:55 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `2037` | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | `cpp` | 2026-11-15 | Math, Enumeration |
+| `2361` | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | `cpp` | 2026-11-16 | String, Simulation |
 <!-- LEETCODE_STATS_END -->
 
 ---
