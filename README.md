@@ -71,18 +71,37 @@ LeetCode Account (Rakshit02)
 
 | Difficulty | Solved |
 |:----------:|:------:|
-| 🟢 Easy    | **1** |
-| 🟡 Medium  | **0** |
-| 🔴 Hard    | **0** |
-| ⚡ **Total** | **1** |
+| 🟢 Easy    | **7** |
+| 🟡 Medium  | **12** |
+| 🔴 Hard    | **1** |
+| ⚡ **Total** | **20** |
 
-> 🕐 Last synced: `2026-11-17 01:55 UTC`
+> 🕐 Last synced: `2026-11-18 01:04 UTC`
 
 ## 📋 All Solutions
 
 | # | Problem | Difficulty | Language | Solved On | Topics |
 |---|---------|:----------:|:--------:|:---------:|--------|
-| `2361` | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | `cpp` | 2026-11-16 | String, Simulation |
+| `0031` | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers |
+| `0122` | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Dynamic Programming, Greedy |
+| `0164` | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Sorting, Bucket Sort, Radix Sort, Pigeonhole Principle |
+| `0458` | [Poor Pigs](https://leetcode.com/problems/poor-pigs/) | 🔴 Hard | `cpp` | 2026-11-13 | Math, Dynamic Programming, Combinatorics |
+| `0532` | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | `cpp` | 2026-11-12 | Array, Hash Table, Two Pointers, Binary Search, Sorting |
+| `0874` | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | 🟢 Easy | `cpp` | 2026-11-11 | Two Pointers, String, Stack, Simulation |
+| `0900` | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | 🟡 Medium | `cpp` | 2026-11-13 | Hash Table, Math, Sorting, Counting, Enumeration |
+| `0917` | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Two Pointers, Greedy, Sorting, Timsort |
+| `1018` | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 Easy | `cpp` | 2026-11-14 | Array, Math, Greedy, Sorting, Quicksort, Polygons |
+| `1033` | [Broken Calculator](https://leetcode.com/problems/broken-calculator/) | 🟡 Medium | `cpp` | 2026-11-13 | Math, Greedy |
+| `1128` | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | 🟢 Easy | `cpp` | 2026-11-11 | String, Stack |
+| `1879` | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | `cpp` | 2026-11-13 | Math, Greedy, Heap (Priority Queue) |
+| `1956` | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy, Sorting |
+| `2037` | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | `cpp` | 2026-11-15 | Math, Enumeration |
+| `2212` | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy |
+| `2361` | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | `cpp` | 2026-11-17 | String, Simulation |
+| `2470` | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium | `cpp` | 2026-11-11 | String, Stack, Simulation |
+| `2566` | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | 🟢 Easy | `cpp` | 2026-11-15 | Array, Hash Table, Sorting |
+| `3372` | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 Easy | `cpp` | 2026-11-12 | Array |
+| `4087` | [Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | 🟡 Medium | `cpp` | 2026-11-12 | Hash Table, String |
 <!-- LEETCODE_STATS_END -->
 
 ---
