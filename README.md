@@ -76,7 +76,7 @@ LeetCode Account (Rakshit02)
 | 🔴 Hard    | **1** |
 | ⚡ **Total** | **20** |
 
-> 🕐 Last synced: `2026-11-18 01:04 UTC`
+> 🕐 Last synced: `2026-11-19 00:37 UTC`
 
 ## 📋 All Solutions
 
@@ -97,7 +97,7 @@ LeetCode Account (Rakshit02)
 | `1956` | [Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy, Sorting |
 | `2037` | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | `cpp` | 2026-11-15 | Math, Enumeration |
 | `2212` | [Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | 🟡 Medium | `cpp` | 2026-11-13 | Array, Greedy |
-| `2361` | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | `cpp` | 2026-11-17 | String, Simulation |
+| `2361` | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | `cpp` | 2026-11-18 | String, Simulation |
 | `2470` | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | 🟡 Medium | `cpp` | 2026-11-11 | String, Stack, Simulation |
 | `2566` | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | 🟢 Easy | `cpp` | 2026-11-15 | Array, Hash Table, Sorting |
 | `3372` | [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | 🟢 Easy | `cpp` | 2026-11-12 | Array |
